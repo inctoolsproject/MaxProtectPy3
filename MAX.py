@@ -47,8 +47,8 @@ CMID = dd3.profile.mid
 Bot =[clientMID]
 Bots = [clientMID,dotsMID,ki1MID,ki2MID,ki3MID,ki4MID,ki5MID,AMID,BMID,CMID]
 creator = ["u4862fe4b182b2fd194a3108e2f3662e8"]
-Owner = ["u4862fe4b182b2fd194a3108e2f3662e8","uac3be5e86d7812e8cc28a6a312f52777"]
-admin = ["u4862fe4b182b2fd194a3108e2f3662e8","uac3be5e86d7812e8cc28a6a312f52777","ufb0c9b848c4359cb7ef4b6f021cd14e0"]
+Owner = ["u4862fe4b182b2fd194a3108e2f3662e8","ue1d6a794435130d139f9c5dde19aa9e5"]
+admin = ["u4862fe4b182b2fd194a3108e2f3662e8","ue1d6a794435130d139f9c5dde19aa9e5"]
 target = []
 
 clientProfile = client.getProfile()
