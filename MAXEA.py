@@ -244,10 +244,10 @@ def menuPro():
                 "╭═══════╬╬═══════╮" + "\n" + \
                 "┃             OWNER KEY" + "\n" + \
                 "┣•━━━━━━━━━━━━━━━━" + "\n" + \
-                "┣➧•" + key + "Pro in" + "\n" + \
-                "┣➧•" + key + "Pro out" + "\n" + \
-                "┣➧•" + key + "Public in" + "\n" + \
-                "┣➧•" + key + "Public out" + "\n" + \
+                "┣➧•" + key + "Join" + "\n" + \
+                "┣➧•" + key + "Bye" + "\n" + \
+                "┣➧•" + key + "Bot in" + "\n" + \
+                "┣➧•" + key + "Bot out" + "\n" + \
                 "┣➧•" + key + "Ownerlist" + "\n" + \
                 "┣➧•" + key + "Adminlist" + "\n" + \
                 "┣➧•" + key + "Refresh" + "\n" + \
@@ -256,7 +256,7 @@ def menuPro():
                 "┃               ADMIN KEY" + "\n" + \
                 "┣•━━━━━━━━━━━━━━━━" + "\n" + \
                 "┣➧•" + key + "Check" + "\n" + \
-                "┣➧•" + key + "Pro Speed" + "\n" + \
+                "┣➧•" + key + "Spb" + "\n" + \
                 "┣➧•" + key + "Pro Status" + "\n" + \
                 "┣➧•" + key + "All Pro On/Off" + "\n" + \
                 "┣➧•" + key + "Proqr On/Off" + "\n" + \
@@ -606,7 +606,7 @@ def clientBot(op):
 							client.sendMessage(to, "➧ Checking Dots Speed")
 							elapsed_time = time.time() - start
 							client.sendMessage(to, "➧ Speed Result : \n   {} Detik".format(str(elapsed_time)))
-						elif cmd == "runtime":
+						elif cmd == "Runtime":
 							timeNow = time.time()
 							runtime = timeNow - clientStart
 							runtime = timeChange(runtime)
@@ -680,7 +680,7 @@ def clientBot(op):
 						
 						elif cmd == "status":
 							try:
-								ret_ = "╭━━━━━━━━━━╮\n┃     SELFBOT STATUS\n┣•━━━━━━━━━━"
+								ret_ = "╭━━━━━━━━━╮\n┃     SELFBOT STATUS\n┣•━━━━━━━━━"
 								if settings["autoAdd"] == True: ret_ += "\n┣• Auto Add : ON"
 								else: ret_ += "\n┣• Auto Add : OFF"
 								if settings["autoJoin"] == True: ret_ += "\n┣• Auto Join : ON"
@@ -697,7 +697,7 @@ def clientBot(op):
 								else: ret_ += "\n┣• Check Post : OFF"
 								if settings["checkSticker"] == True: ret_ += "\n┣• Check Sticker : ON"
 								else: ret_ += "\n┣• Check Sticker : OFF"
-								ret_ +="\n┣•━━━━━━━━━━\n┃        DOTS AUTO BOT \n╰━━━━━━━━━━╯"
+								ret_ +="\n┣•━━━━━━━━━\n┃        DOTS AUTO BOT \n╰━━━━━━━━━╯"
 								client.sendMessage(to, str(ret_))
 							except Exception as error:
 								logError(error)
@@ -832,7 +832,7 @@ def clientBot(op):
 						elif cmd.startswith("cbio: "):
 							sep = text.split(" ")
 							bio = text.replace(sep[0] + " ","")
-							if len(bio) <= 500:
+							if len(bio) <= 50000:
 								profile = client.getProfile()
 								profile.statusMessage = bio
 								client.updateProfile(profile)
@@ -841,9 +841,6 @@ def clientBot(op):
 							client.sendMention(to, "@!", [sender])
 							client.sendContact(to, sender)
 							contact = client.getContact(sender)
-							cover = client.getProfileCoverURL(sender)
-							client.sendImageWithURL(to, "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus))
-							client.sendImageWithURL(to, cover)
 						elif cmd == "myprofile":
 							contact = client.getContact(sender)
 							cover = client.getProfileCoverURL(sender)
@@ -1025,12 +1022,12 @@ def clientBot(op):
 						elif cmd == "blocklist":
 							blockeds = client.getBlockedContactIds()
 							num = 0
-							result = "╭━━━━━━━━━━━━━━━━╮\n┃     BLOCKED ACCOUNT\n┣•━━━━━━━━━━━━━━━━"
+							result = "╭━━━━━━━━━━╮\n┃     BLOCKED ACCOUNT\n┣•━━━━━━━━━━"
 							for listBlocked in blockeds:
 								contact = client.getContact(listBlocked)
 								num += 1
 								result += "\n┣ {}. {}".format(num, contact.displayName)
-							result += "\n┣•━━━━━━━━━━━━━━━━\n┃ Total Blocked :  {} ".format(len(blockeds)) + "\n╰━━━━━━━━━━━━━━━━╯"
+							result += "\n┣•━━━━━━━━━━\n┃ Total Blocked :  {} ".format(len(blockeds)) + "\n╰━━━━━━━━━━╯"
 							client.sendMessage(to, result)
 						elif cmd.startswith("fbc: "):
 							sep = text.split(" ")
@@ -1077,23 +1074,23 @@ def clientBot(op):
 								client.sendMessage(to, "➧ Group ID :\n   {}".format(group.id))
 						elif cmd == "mygroup":
 							groups = client.getGroupIdsJoined()
-							ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃         M Y    G R O U P\n┣•━━━━━━━━━━━━━━━━"
+							ret_ = "╭━━━━━━━━━━╮\n┃      M Y    G R O U P\n┣•━━━━━━━━━━"
 							no = 0
 							for gid in groups:
 								group = client.getGroup(gid)
 								no += 1
 								ret_ += "\n┣ {}. {} | {}".format(str(no), str(group.name), str(len(group.members)))
-							ret_ += "\n┣•━━━━━━━━━━━━━━━━\n┃ Total Groups : {} ".format(str(len(groups))) + "\n╰━━━━━━━━━━━━━━━━╯"
+							ret_ += "\n┣•━━━━━━━━━━\n┃ Total Groups : {} ".format(str(len(groups))) + "\n╰━━━━━━━━━━╯"
 							client.sendMessage(to, str(ret_))
 						elif cmd == "tag name":
 							if msg.toType == 2:
 								group = client.getGroup(to)
 								num = 0
-								ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃          TAG BY NAME\n┣•━━━━━━━━━━━━━━━━"
+								ret_ = "╭━━━━━━━━━━╮\n┃          TAG BY MAX\n┣•━━━━━━━━━━"
 								for contact in group.members:
 									num += 1
 									ret_ += "\n┣ {}. {}".format(num, contact.displayName)
-								ret_ += "\n┣•━━━━━━━━━━━━━━━━\n┃ Total Members : {} ".format(len(group.members)) + "\n╰━━━━━━━━━━━━━━━━╯"
+								ret_ += "\n┣•━━━━━━━━━━\n┃ Total Members : {} ".format(len(group.members)) + "\n╰━━━━━━━━━━╯"
 								client.sendMessage(to, ret_)
 						elif cmd == "pendinglist":
 							if msg.toType == 2:
@@ -1563,15 +1560,16 @@ def clientBot(op):
 								random.choice(GUE).sendMessage(to, "➧ Restarting Dots System\n➧ Tunggu 30 Detik")
 								restartBot()
 
-						if cmd in ["pro out"]:
+						if cmd in ["bye"]:
 							if msg._from in Bot:
 								ki1.leaveGroup(msg.to)
 								ki2.leaveGroup(msg.to)
 								ki3.leaveGroup(msg.to)
 								ki4.leaveGroup(msg.to)
 								ki5.leaveGroup(msg.to)
-								
-						elif cmd in ["pro in"]:
+                                                                dots.leaveGroup(msg.to)
+
+						elif cmd in ["join"]:
 							if msg._from in Bot:
 								G = client.getGroup(msg.to)
 								ginfo = client.getGroup(msg.to)
@@ -1592,7 +1590,7 @@ def clientBot(op):
 								ki1.updateGroup(G)
 								ki.sendMessage(to, "➧ All Auto Bot Protect On\n➧ Siap melayani bos semuanya...")
 								
-						elif cmd in ["public in"]:
+						elif cmd in ["bot in"]:
 							if msg._from in Bot:
 								G = ki1.getGroup(msg.to)
 								ginfo = ki1.getGroup(msg.to)
@@ -1607,7 +1605,7 @@ def clientBot(op):
 								G.preventedJoinByTicket(G)
 								ki1.updateGroup(G)
 								dots.sendMessage(to, "➧ Public Bot On...\n➧ Ketik Menu Untuk Bantuan")
-						if cmd in ["public out"]:
+						if cmd in ["bot out"]:
 							if msg._from in Bot:
 								dots.leaveGroup(msg.to)
 								
@@ -1692,7 +1690,7 @@ def clientBot(op):
 						if cmd == "pro status":
 							if msg._from in Bot:
 								try:
-									ret_ = "╭════════════════╮\n┃    PROTECTION STATUS\n╰═══════╬╬═══════╯\n╭═══════╬╬═══════╮\n"
+									ret_ = "╭══════════════╮\n┃    PROTECTION STATUS\n╰═════╬╬═════╯\n╭═════╬╬═════╮\n"
 									if settings["protect"] == True: ret_ += "┣•➧ Protect : On"
 									else: ret_ += "┣•➧ Protect : Off"
 									if settings["qrprotect"] == True: ret_ += "\n┣•➧ Qr Protect : On"
@@ -1701,7 +1699,7 @@ def clientBot(op):
 									else: ret_ += "\n┣•➧ Invite Protect : Off"
 									if settings["cancelprotect"] == True: ret_ += "\n┣•➧ Cancel Protect : On"
 									else: ret_ += "\n┣•➧ Cancel Protect : Off"
-									ret_ += "\n╰═══════╬╬═══════╯\n╭═══════╬╬═══════╮\n┃      D'SHOP AUTO BOT\n┃       CREATOR : DEDE\n╰════════════════╯"
+									ret_ += "\n╰═══════╬╬═══════╯\n╭══════╬╬══════╮\n┃    【さัএπัஞ✵ບิथℓℓҨतΩ】\n┃    ™ധู้ざຣ้ণს✚ປิʨℓℓҨබମ™\n╰══════════════╯"
 									random.choice(GUE).sendMessage(to, str(ret_))
 								except Exception as e:
 									random.choice(GUE).sendMessage(msg.to, str(e))
@@ -1726,7 +1724,7 @@ def clientBot(op):
 										ki1.updateGroup(group)
 										ki1.sendMessage(to, "➧ Group QR Tertutup...\n➧ Group Aman")
 										
-						if cmd == "pro speed":
+						if cmd == "spb":
 							if msg._from in Bot:
 								start = time.time()
 								ki1.sendMessage(to, "➧ Checking Dots Pro Speed")
@@ -1768,12 +1766,12 @@ def clientBot(op):
 							if msg._from in Bot:
 								blockeds = random.choice(GUE).getBlockedContactIds()
 								num = 0
-								result = "╭━━━━━━━━━━━━━━━━╮\n┃     BLOCKED ACCOUNT\n┣•━━━━━━━━━━━━━━━━"
+								result = "╭━━━━━━━━━━╮\n┃     BLOCKED ACCOUNT\n┣•━━━━━━━━━━"
 								for listBlocked in blockeds:
 									contact = random.choice(GUE).getContact(listBlocked)
 									num += 1
 									result += "\n┣ {}. {}".format(num, contact.displayName)
-								result += "\n┣•━━━━━━━━━━━━━━━━\n┃ Total Blocked :  {} ".format(len(blockeds)) + "\n╰━━━━━━━━━━━━━━━━╯"
+								result += "\n┣•━━━━━━━━━━\n┃ Total Blocked :  {} ".format(len(blockeds)) + "\n╰━━━━━━━━━━╯"
 								random.choice(GUE).sendMessage(to, result)
 						elif cmd.startswith("tampol "):
 							if msg._from in Bot:
@@ -1792,11 +1790,11 @@ def clientBot(op):
 								if msg.toType == 2:
 									group = random.choice(GUE).getGroup(to)
 									num = 0
-									ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃          TAG BY NAME\n┣•━━━━━━━━━━━━━━━━"
+									ret_ = "╭━━━━━━━━━━╮\n┃          TAG BY MAX\n┣•━━━━━━━━━━"
 									for contact in group.members:
 										num += 1
 										ret_ += "\n┣ {}. {}".format(num, contact.displayName)
-									ret_ += "\n┣•━━━━━━━━━━━━━━━━\n┃ Total Members : {} ".format(len(group.members)) + "\n╰━━━━━━━━━━━━━━━━╯"
+									ret_ += "\n┣•━━━━━━━━━━\n┃ Total Members : {} ".format(len(group.members)) + "\n╰━━━━━━━━━━╯"
 									random.choice(GUE).sendMessage(to, ret_)
 						elif cmd == 'all pro on':
 							if msg._from in Bot:
@@ -1811,7 +1809,7 @@ def clientBot(op):
 								random.choice(GUE).sendMessage(msg.to,"➧ Invite Protect On")
 								random.choice(GUE).sendMessage(msg.to,"➧ Cancel Protect On")
 								random.choice(GUE).sendMessage(msg.to,"➧ All Protect On")
-						elif cmd == 'all pro Off':
+						elif cmd == 'all pro off':
 							if msg._from in Bot:
 								settings["protect"] = False
 								settings["qrprotect"] = False
@@ -1957,11 +1955,11 @@ def clientBot(op):
 								dd.findAndAddContactsByMid(target)
 								contact = client.getContact(target)
 								cover = client.getProfileCoverURL(target)
-								ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃      DETAIL CONTACT\n╰━━━━━━━━━━━━━━━━╯"
+								ret_ = "╭━━━━━━━━━━╮\n┃    MAXSY CONTACT\n╰━━━━━━━━━━╯"
 								ret_ += "\n ➧ Nama : {}".format(str(contact.displayName))
 								ret_ += "\n ➧ MID : {}".format(str(msg.contentMetadata["mid"]))
 								ret_ += "\n ➧ Bio : \n   {}".format(str(contact.statusMessage)) + "\n"
-								ret_ += "\n╭━━━━━━━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+								ret_ += "\n╭━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━╯"
 								client.sendMessage(to, str(ret_))
 								client.sendImageWithURL(to, "http://dl.profile.line-cdn.net/{}".format(str(contact.pictureStatus)))
 								client.sendImageWithURL(to, cover)
@@ -1971,7 +1969,7 @@ def clientBot(op):
 					elif msg.contentType == 16:
 						if settings["checkPost"] == True:
 							try:
-								ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃          DETAIL POST\n╰━━━━━━━━━━━━━━━━╯"
+								ret_ = "╭━━━━━━━━━━╮\n┃        MAXSY POST\n╰━━━━━━━━━━╯"
 								if msg.contentMetadata["serviceType"] == "GB":
 									contact = client.getContact(sender)
 									auth = "\n ➧ Penulis : {}".format(str(contact.displayName))
@@ -2002,7 +2000,7 @@ def clientBot(op):
 								if "text" in msg.contentMetadata:
 									text = "\n ➧ Tulisan : {}".format(str(msg.contentMetadata["text"]))
 									ret_ += text
-								ret_ += "\n╭━━━━━━━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+								ret_ += "\n╭━━━━━━━━━━╮\n┃       MAXSY AUTO BOT \n╰━━━━━━━━━━╯"
 								client.sendMessage(to, str(ret_))
 							except:
 								client.sendMessage(to, "➧ Post tidak valid")
@@ -2072,10 +2070,10 @@ def clientBot(op):
 									random.choice(GUE).sendMessage(msg.to,"➧ Admin Empty")
 								else:
 									random.choice(GUE).sendMessage(msg.to,"➧ Reloading Dots Admin")
-									mc = "╭════════════════╮\n┃  DOTS PROTECT ADMIN\n╰═══════╬╬═══════╯\n╭═══════╬╬═══════╮\n"
+									mc = "╭══════════════╮\n┃   MAX PROTECT ADMIN\n╰══════╬╬══════╯\n╭══════╬╬══════╮\n"
 									for mi_d in admin:
 										mc += "┣➧ " +random.choice(GUE).getContact(mi_d).displayName + "\n"
-									random.choice(GUE).sendMessage(msg.to,mc + "╰════════════════╯")
+									random.choice(GUE).sendMessage(msg.to,mc + "╰══════════════╯")
 						
 						elif cmd == 'ownerlist':
 							if msg._from in Owner:
@@ -2083,24 +2081,25 @@ def clientBot(op):
 									random.choice(GUE).sendMessage(msg.to,"➧ Owner Empty")
 								else:
 									random.choice(GUE).sendMessage(msg.to,"➧ Reloading Dots Owner")
-									mc = "╭════════════════╮\n┃  DOTS PROTECT OWNER\n╰═══════╬╬═══════╯\n╭═══════╬╬═══════╮\n"
+									mc = "╭══════════════╮\n┃  DOTS PROTECT OWNER\n╰══════╬╬══════╯\n╭══════╬╬══════╮\n"
 									for mi_d in Owner:
 										mc += "┣➧ " +random.choice(GUE).getContact(mi_d).displayName + "\n"
-									random.choice(GUE).sendMessage(msg.to,mc + "╰════════════════╯")
+									random.choice(GUE).sendMessage(msg.to,mc + "╰══════════════╯")
 						elif cmd == "refresh":
 							if msg._from in Owner:
 								random.choice(GUE).sendMessage(to, "➧ Restarting Dots System\n➧ Tunggu 30 Detik")
 								restartBot()
 
-						if cmd in ["pro out"]:
+						if cmd in ["bye"]:
 							if msg._from in Owner:
 								ki1.leaveGroup(msg.to)
 								ki2.leaveGroup(msg.to)
 								ki3.leaveGroup(msg.to)
 								ki4.leaveGroup(msg.to)
 								ki5.leaveGroup(msg.to)
-								
-						elif cmd in ["pro in"]:
+                                                                dots.leaveGroup(msg.to)
+
+						elif cmd in ["join"]:
 							if msg._from in Owner:
 								G = client.getGroup(msg.to)
 								ginfo = client.getGroup(msg.to)
@@ -2121,7 +2120,7 @@ def clientBot(op):
 								ki1.updateGroup(G)
 								ki.sendMessage(to, "➧ All Auto Bot Protect On\n➧ Siap melayani bos semuanya...")
 								
-						elif cmd in ["public in"]:
+						elif cmd in ["bot in"]:
 							if msg._from in Owner:
 								G = ki1.getGroup(msg.to)
 								ginfo = ki1.getGroup(msg.to)
@@ -2136,7 +2135,7 @@ def clientBot(op):
 								G.preventedJoinByTicket(G)
 								ki1.updateGroup(G)
 								dots.sendMessage(to, "➧ Public Bot On...\n➧ Ketik Menu Untuk Bantuan")
-						if cmd in ["public out"]:
+						if cmd in ["bot out"]:
 							if msg._from in Owner:
 								dots.leaveGroup(msg.to)
 								
@@ -2207,23 +2206,23 @@ def clientBot(op):
 								except:
 									pass
 								random.choice(GUE).sendMessage(to, "➧ Delete reading point : \n{}".format(readTime))
-						if cmd == "reader":
+						if cmd == "breader":
 							if msg._from in admin:
 								if read["readMember"][to] == []:
 									return random.choice(GUE).sendMessage(to, "➧ Tidak Ada Sider")
 								else:
 									no = 0
-									result = "╭━━━━━━━━━━━━━━━━╮\n┃            LIST SIDER\n╰═══════╬╬═══════╯\n╭═══════╬╬═══════╮"
+									result = "╭━━━━━━━━━━╮\n┃            LIST SIDER\n╰══════╬╬══════╯\n╭══════╬╬══════╮"
 									for dataRead in read["readMember"][to]:
 										no += 1
 										result += "\n┣ {}. @!".format(str(no))
-									result += "\n┣•━━━━━━━━━━━━━━━━\n┃ Total Sider : {} ".format(str(len(read["readMember"][to]))) + "\n╰━━━━━━━━━━━━━━━━╯"
+									result += "\n┣•━━━━━━━━━━\n┃ Total Sider : {} ".format(str(len(read["readMember"][to]))) + "\n╰━━━━━━━━━━╯"
 									random.choice(GUE).sendMention(to, result, read["readMember"][to])
 									read['readMember'][to] = []
 						if cmd == "pro status":
 							if msg._from in admin:
 								try:
-									ret_ = "╭════════════════╮\n┃    PROTECTION STATUS\n╰═══════╬╬═══════╯\n╭═══════╬╬═══════╮\n"
+									ret_ = "╭══════════════╮\n┃    PROTECTION STATUS\n╰══════╬╬══════╯\n╭══════╬╬══════╮\n"
 									if settings["protect"] == True: ret_ += "┣•➧ Protect : On"
 									else: ret_ += "┣•➧ Protect : Off"
 									if settings["qrprotect"] == True: ret_ += "\n┣•➧ Qr Protect : On"
@@ -2232,7 +2231,7 @@ def clientBot(op):
 									else: ret_ += "\n┣•➧ Invite Protect : Off"
 									if settings["cancelprotect"] == True: ret_ += "\n┣•➧ Cancel Protect : On"
 									else: ret_ += "\n┣•➧ Cancel Protect : Off"
-									ret_ += "\n╰═══════╬╬═══════╯\n╭═══════╬╬═══════╮\n┃      D'SHOP AUTO BOT\n┃       CREATOR : DEDE\n╰════════════════╯"
+									ret_ += "\n╰══════╬╬══════╯\n╭══════╬╬══════╮\n┃   【さัএπัஞ✵ບิथℓℓҨतΩ】\n┃     ™ധู้ざຣ้ণს✚ປิʨℓℓҨබମ™\n╰══════════════╯"
 									random.choice(GUE).sendMessage(to, str(ret_))
 								except Exception as e:
 									random.choice(GUE).sendMessage(msg.to, str(e))
@@ -2299,12 +2298,12 @@ def clientBot(op):
 							if msg._from in admin:
 								blockeds = random.choice(GUE).getBlockedContactIds()
 								num = 0
-								result = "╭━━━━━━━━━━━━━━━━╮\n┃     BLOCKED ACCOUNT\n┣•━━━━━━━━━━━━━━━━"
+								result = "╭━━━━━━━━━━╮\n┃     BLOCKED ACCOUNT\n┣•━━━━━━━━━━"
 								for listBlocked in blockeds:
 									contact = random.choice(GUE).getContact(listBlocked)
 									num += 1
 									result += "\n┣ {}. {}".format(num, contact.displayName)
-								result += "\n┣•━━━━━━━━━━━━━━━━\n┃ Total Blocked :  {} ".format(len(blockeds)) + "\n╰━━━━━━━━━━━━━━━━╯"
+								result += "\n┣•━━━━━━━━━━\n┃ Total Blocked :  {} ".format(len(blockeds)) + "\n╰━━━━━━━━━━╯"
 								random.choice(GUE).sendMessage(to, result)
 						elif cmd.startswith("tampol "):
 							if msg._from in admin:
@@ -2323,11 +2322,11 @@ def clientBot(op):
 								if msg.toType == 2:
 									group = random.choice(GUE).getGroup(to)
 									num = 0
-									ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃          TAG BY NAME\n┣•━━━━━━━━━━━━━━━━"
+									ret_ = "╭━━━━━━━━━━╮\n┃         TAG BY MAXSY\n┣•━━━━━━━━━━"
 									for contact in group.members:
 										num += 1
 										ret_ += "\n┣ {}. {}".format(num, contact.displayName)
-									ret_ += "\n┣•━━━━━━━━━━━━━━━━\n┃ Total Members : {} ".format(len(group.members)) + "\n╰━━━━━━━━━━━━━━━━╯"
+									ret_ += "\n┣•━━━━━━━━━━\n┃ Total Members : {} ".format(len(group.members)) + "\n╰━━━━━━━━━━╯"
 									random.choice(GUE).sendMessage(to, ret_)
 						elif cmd == 'all pro on':
 							if msg._from in admin:
@@ -2549,14 +2548,14 @@ def clientBot(op):
 							dots.sendMention(to, "@!", [sender])
 							dots.sendMessage(to, "➧ Apamu yg sueek kk...???\n➧ Atw sue ora jamu..??? Xixixixi")
 						
-						elif cmd == "menu":
+						elif cmd == "bot menu":
 							helpPub = menuPub()
 							contact = dots.getContact(sender)
 							icon = "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus)
 							name = contact.displayName
 							link = "https://timeline.line.me/post/_dZNo9tm3E3PH0dURm6N9Rf_pYxmFJO2uASn_y7Q/1153217318709030407"
 							dots.sendFooter(to, helpPub, icon, name, link)
-						elif cmd == "translator":
+						elif cmd == "bot translator":
 							helpTranslate = menuTranslate()
 							contact = dots.getContact(sender)
 							icon = "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus)
@@ -2589,7 +2588,7 @@ def clientBot(op):
 								settings["checkSticker"] = False
 								dots.sendMessage(to, "➧ Check details sticker nonaktif")
 						
-						elif cmd == "me":
+						elif cmd == "คท":
 							dots.sendMention(to, "@!", [sender])
 							dots.sendContact(to, sender)
 							contact = dots.getContact(sender)
