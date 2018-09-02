@@ -1,3 +1,3 @@
-# SEMUA AKAN MATI PADA WAKTUNYA
+# BOT LINE PYTHON3
 
-## PAYPRO
+# BY: ™ധู้ざຣ้ণს✚ປิʨℓℓҨබମ™
