@@ -9,7 +9,7 @@ import ast, codecs, json, os, pytz, re, random, requests, sys, time, urllib.pars
 
 listApp = ["CHROMEOS", "DESKTOPWIN", "DESKTOPMAC", "IOSIPAD", "WIN10"]
 print ("===============[PROTECT BOT LOGIN START]===============\n")
-client = LINE("")
+client = LINE()
 print ("===============[PRO LEADER LOGIN SUKSES]===============\n")
 ki1 = LINE("EwI9BSTVpWxwSBCHgI23.NFnOcElHuDdTQG5zISlFKW.n+ZbDfBy9TYOHpwj0m1HgJB72ZueZk1BN5cEafxX2Ak=")
 print ("===============[PRO 1 LOGIN SUKSES]===============\n")
