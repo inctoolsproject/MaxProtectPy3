@@ -11,23 +11,23 @@ listApp = ["CHROMEOS", "DESKTOPWIN", "DESKTOPMAC", "IOSIPAD", "WIN10"]
 print ("===============[PROTECT BOT LOGIN START]===============\n")
 client = LINE("")
 print ("===============[PRO LEADER LOGIN SUKSES]===============\n")
-ki1 = LINE("")
+ki1 = LINE("EwI9BSTVpWxwSBCHgI23.NFnOcElHuDdTQG5zISlFKW.n+ZbDfBy9TYOHpwj0m1HgJB72ZueZk1BN5cEafxX2Ak=")
 print ("===============[PRO 1 LOGIN SUKSES]===============\n")
-ki2 = LINE("")
+ki2 = LINE("Ew1hM4cA6TTmEkJVRSGf.SRsUzuDklMrk69jt3WvkhW.AMXVKeg2n1cfMW0ix7//YFC16puy8x5U0Yo2ZyTKCcY=")
 print ("===============[PRO 2 LOGIN SUKSES]===============\n")
-ki3 = LINE("")
+ki3 = LINE("EwHYNKy8pEdfKo8T2oy6.uEr21FsOaeuLSWAmhT6MLG.1/zaZ7vVzVAybWFC38iZBbM/2ev/o1CyGUeiV7Jnz10=")
 print ("===============[PRO 3 LOGIN SUKSES]===============\n")
-ki4 = LINE("")
+ki4 = LINE("Ewb7o48NJGAiOmc7O9w9.WrtAVyZDRBvprHExwvnXkq.rhVAeLQ1Dj3ug+UhDWn70zfcSa+Z8iaBcu42eMh44m0=")
 print ("===============[PRO 4 LOGIN SUKSES]===============\n")
-ki5 = LINE("")
+ki5 = LINE("EwWRnXEbYBf1l5fqn2G6.WKcub2t+uJueUYfdC1qAbG.JwPtYtR+5RL0Xh/g48/YOlbhT1jswHMsiX/f9NIFpYY=")
 print ("===============[PRO 5 LOGIN SUKSES]===============\n")
-dots = LINE("")
+dots = LINE("EwQkfLjGK0Ft7rrCDba5.4DANLenrmne5/CxD4zQP5q.rmxmlLGiYNe3qpRnQx+CBTkT1bGiNsLf7y528Og4iew=")
 print ("==============[PUBLIC BOT LOGIN SUKSES]==============\n")
-dd1 = LINE("")
+dd1 = LINE("EwnBrnD1k5ImTnn18mb5.u+xXLFQSlbSB6sUpVT4zzq.WUP3cXcq/89DknKiANX+NhnfhwcJ5JEbv7Zjkx0pYVU=")
 print ("===============[LEADER 1 LOGIN SUKSES]===============\n")
-dd2 = LINE("")
+dd2 = LINE("EwnBrnD1k5ImTnn18mb5.u+xXLFQSlbSB6sUpVT4zzq.WUP3cXcq/89DknKiANX+NhnfhwcJ5JEbv7Zjkx0pYVU=")
 print ("===============[LEADER 2 LOGIN SUKSES]===============\n")
-dd3 = LINE("")
+dd3 = LINE("EwvkhvAWkQvQIIszM9nc.XwGHfami0C6EGZ533rnqZa.0Vdpt0ZjoRLivbqz7lRWguepKCjkFlZh61rPfLxQVII=")
 print ("===============[LEADER 3 LOGIN SUKSES]===============\n\n======================================\n        AUTO PROTECT BOT LINE\n            CREATOR : DEDE\n           DEDE SHOP CENTRE\n======================================\n\n[DOTS AUTO PROTECT BOT START]")
 
 
@@ -47,8 +47,8 @@ CMID = dd3.profile.mid
 Bot =[clientMID]
 Bots = [clientMID,dotsMID,ki1MID,ki2MID,ki3MID,ki4MID,ki5MID,AMID,BMID,CMID]
 creator = ["u4862fe4b182b2fd194a3108e2f3662e8"]
-Owner = ["u4862fe4b182b2fd194a3108e2f3662e8","uac3be5e86d7812e8cc28a6a312f52777"]
-admin = ["u4862fe4b182b2fd194a3108e2f3662e8","uac3be5e86d7812e8cc28a6a312f52777","ufb0c9b848c4359cb7ef4b6f021cd14e0"]
+Owner = ["u4862fe4b182b2fd194a3108e2f3662e8"]
+admin = ["u4862fe4b182b2fd194a3108e2f3662e8"]
 target = []
 
 clientProfile = client.getProfile()
@@ -1567,7 +1567,6 @@ def clientBot(op):
 								ki3.leaveGroup(msg.to)
 								ki4.leaveGroup(msg.to)
 								ki5.leaveGroup(msg.to)
-                                                                dots.leaveGroup(msg.to)
 
 						elif cmd in ["join"]:
 							if msg._from in Bot:
@@ -1729,7 +1728,7 @@ def clientBot(op):
 								start = time.time()
 								ki1.sendMessage(to, "➧ Checking Dots Pro Speed")
 								elapsed_time = time.time() - start
-								ki2.sendMessage(to, "➧ MAX 1 speed : \n   {} Detik".format(str(elapsed_time)))
+								ki1.sendMessage(to, "➧ MAX 1 speed : \n   {} Detik".format(str(elapsed_time)))
 								elapsed_time = time.time() - start
 								ki2.sendMessage(to, "➧ MAX 2 speed : \n   {} Detik".format(str(elapsed_time)))
 								elapsed_time = time.time() - start
@@ -2097,7 +2096,6 @@ def clientBot(op):
 								ki3.leaveGroup(msg.to)
 								ki4.leaveGroup(msg.to)
 								ki5.leaveGroup(msg.to)
-                                                                dots.leaveGroup(msg.to)
 
 						elif cmd in ["join"]:
 							if msg._from in Owner:
