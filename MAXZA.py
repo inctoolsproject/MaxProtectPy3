@@ -257,7 +257,7 @@ def menuPro():
                 "┣•━━━━━━━━━━━" + "\n" + \
                 "┣➧•" + key + "Check" + "\n" + \
                 "┣➧•" + key + "Spb" + "\n" + \
-                "┣➧•" + key + "Pro Status" + "\n" + \
+                "┣➧•" + key + "Bot Status" + "\n" + \
                 "┣➧•" + key + "All Pro On/Off" + "\n" + \
                 "┣➧•" + key + "Proqr On/Off" + "\n" + \
                 "┣➧•" + key + "Proinvite On/Off" + "\n" + \
