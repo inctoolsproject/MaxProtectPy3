@@ -10,25 +10,25 @@ import ast, codecs, json, os, pytz, re, random, requests, sys, time, urllib.pars
 listApp = ["CHROMEOS", "DESKTOPWIN", "DESKTOPMAC", "IOSIPAD", "WIN10"]
 print ("===============[PROTECT BOT LOGIN START]===============\n")
 client = LINE()
-print ("===============[PRO LEADER LOGIN SUKSES]===============\n")
-ki1 = LINE("EwI9BSTVpWxwSBCHgI23.NFnOcElHuDdTQG5zISlFKW.n+ZbDfBy9TYOHpwj0m1HgJB72ZueZk1BN5cEafxX2Ak=")
-print ("===============[PRO 1 LOGIN SUKSES]===============\n")
-ki2 = LINE("Ew1hM4cA6TTmEkJVRSGf.SRsUzuDklMrk69jt3WvkhW.AMXVKeg2n1cfMW0ix7//YFC16puy8x5U0Yo2ZyTKCcY=")
-print ("===============[PRO 2 LOGIN SUKSES]===============\n")
-ki3 = LINE("EwHYNKy8pEdfKo8T2oy6.uEr21FsOaeuLSWAmhT6MLG.1/zaZ7vVzVAybWFC38iZBbM/2ev/o1CyGUeiV7Jnz10=")
-print ("===============[PRO 3 LOGIN SUKSES]===============\n")
-ki4 = LINE("Ewb7o48NJGAiOmc7O9w9.WrtAVyZDRBvprHExwvnXkq.rhVAeLQ1Dj3ug+UhDWn70zfcSa+Z8iaBcu42eMh44m0=")
-print ("===============[PRO 4 LOGIN SUKSES]===============\n")
-ki5 = LINE("EwWRnXEbYBf1l5fqn2G6.WKcub2t+uJueUYfdC1qAbG.JwPtYtR+5RL0Xh/g48/YOlbhT1jswHMsiX/f9NIFpYY=")
-print ("===============[PRO 5 LOGIN SUKSES]===============\n")
-dots = LINE("EwQkfLjGK0Ft7rrCDba5.4DANLenrmne5/CxD4zQP5q.rmxmlLGiYNe3qpRnQx+CBTkT1bGiNsLf7y528Og4iew=")
-print ("==============[PUBLIC BOT LOGIN SUKSES]==============\n")
-dd1 = LINE("EwnBrnD1k5ImTnn18mb5.u+xXLFQSlbSB6sUpVT4zzq.WUP3cXcq/89DknKiANX+NhnfhwcJ5JEbv7Zjkx0pYVU=")
-print ("===============[LEADER 1 LOGIN SUKSES]===============\n")
-dd2 = LINE("EwnBrnD1k5ImTnn18mb5.u+xXLFQSlbSB6sUpVT4zzq.WUP3cXcq/89DknKiANX+NhnfhwcJ5JEbv7Zjkx0pYVU=")
-print ("===============[LEADER 2 LOGIN SUKSES]===============\n")
-dd3 = LINE("EwvkhvAWkQvQIIszM9nc.XwGHfami0C6EGZ533rnqZa.0Vdpt0ZjoRLivbqz7lRWguepKCjkFlZh61rPfLxQVII=")
-print ("===============[LEADER 3 LOGIN SUKSES]===============\n\n======================================\n        AUTO PROTECT BOT LINE\n            CREATOR : DEDE\n           DEDE SHOP CENTRE\n======================================\n\n[DOTS AUTO PROTECT BOT START]")
+print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+ki1 = LINE("")
+print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+ki2 = LINE("")
+print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+ki3 = LINE("")
+print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+ki4 = LINE("")
+print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+ki5 = LINE("")
+print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+dots = LINE("")
+print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+dd1 = LINE("")
+print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+dd2 = LINE("")
+print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+dd3 = LINE("")
+print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n\n======================================\n        AUTO PROTECT BOT LINE\n            CREATOR : MAX\n           MAX SHOP CENTRE\n======================================\n\n[MAX AUTO PROTECT BOT START]")
 
 
 KAC = [client,dots,ki1,ki2,ki3,ki4,ki5]
@@ -44,7 +44,7 @@ AMID = dd1.profile.mid
 BMID = dd2.profile.mid
 CMID = dd3.profile.mid
 
-Bot =[clientMID]
+Bot =[clientMID,ki1MID,ki2MID,ki3MID,ki4MID,ki5MID]
 Bots = [clientMID,dotsMID,ki1MID,ki2MID,ki3MID,ki4MID,ki5MID,AMID,BMID,CMID]
 creator = ["u4862fe4b182b2fd194a3108e2f3662e8"]
 Owner = ["u4862fe4b182b2fd194a3108e2f3662e8"]
@@ -196,8 +196,8 @@ def menuPub():
 	else:
 		key = ''
 		menuPub=   "╭════════════════╮" + "\n" + \
-                "┃【さัএπัஞ✵ບิथℓℓҨतΩ】" + "\n" + \
-                "┃    MAXSY MENU" + "\n" + \
+                "┃ 【さัএπัஞ✵ບิथℓℓҨतΩ】" + "\n" + \
+                "┃MAX SELF BOT PYTHON3" + "\n" + \
                 "╰═══════╬╬═══════╯" + "\n" + \
                 "╭═══════╬╬═══════╮" + "\n" + \
                 "┣•✪•  " + key + "Me" + "\n" + \
@@ -228,8 +228,8 @@ def menuPub():
                 "┣•✪•  " + key + "Pendinglist" + "\n" + \
 	            "╰═══════╬╬═══════╯" + "\n" + \
 	            "╭═══════╬╬═══════╮" + "\n" + \
-                "┃  【さัএπัஞ✵ບิथℓℓҨतΩ】" + "\n" + \
-                "┃    CREATOR : MAX" + "\n" + \
+                "┃【さัএπัஞ✵ບิथℓℓҨतΩ】" + "\n" + \
+                "┃  CREATOR : MAX" + "\n" + \
                 "╰════════════════╯"
 	return menuPub
 	
@@ -242,8 +242,8 @@ def menuPro():
                 "┃ AUTO PROTECT BOT KEY" + "\n" + \
                 "╰═══════╬╬═══════╯" + "\n" + \
                 "╭═══════╬╬═══════╮" + "\n" + \
-                "┃             OWNER KEY" + "\n" + \
-                "┣•━━━━━━━━━━━━━━━━" + "\n" + \
+                "┃     OWNER KEY" + "\n" + \
+                "┣•━━━━━━━━━━━" + "\n" + \
                 "┣➧•" + key + "Join" + "\n" + \
                 "┣➧•" + key + "Bye" + "\n" + \
                 "┣➧•" + key + "Bot in" + "\n" + \
@@ -252,9 +252,9 @@ def menuPro():
                 "┣➧•" + key + "Adminlist" + "\n" + \
                 "┣➧•" + key + "Refresh" + "\n" + \
                 "┣➧•" + key + "Clean Up" + "\n" + \
-                "┣•━━━━━━━━━━━━━━━━" + "\n" + \
-                "┃               ADMIN KEY" + "\n" + \
-                "┣•━━━━━━━━━━━━━━━━" + "\n" + \
+                "┣•━━━━━━━━━━━" + "\n" + \
+                "┃      ADMIN KEY" + "\n" + \
+                "┣•━━━━━━━━━━━" + "\n" + \
                 "┣➧•" + key + "Check" + "\n" + \
                 "┣➧•" + key + "Spb" + "\n" + \
                 "┣➧•" + key + "Pro Status" + "\n" + \
@@ -273,8 +273,8 @@ def menuPro():
                 "┣➧•" + key + "Call mem" + "\n" + \
                 "╰═══════╬╬═══════╯" + "\n" + \
                 "╭═══════╬╬═══════╮" + "\n" + \
-                "┃  【さัএπัஞ✵ບิथℓℓҨतΩ】" + "\n" + \
-                "┃    CREATOR : MAX" + "\n" + \
+                "┃ 【さัএπัஞ✵ບิथℓℓҨतΩ】" + "\n" + \
+                "┃   CREATOR : MAX" + "\n" + \
                 "╰════════════════╯"
 	return menuPro
 	
@@ -284,7 +284,7 @@ def menuHelp():
 	else:
 		key = ''
 		menuHelp =   "╭════════════════╮" + "\n" + \
-                "┃      MAIN KEY SERVICE" + "\n" + \
+                "┃ MAIN KEY SERVICE" + "\n" + \
                 "╰═══════╬╬═══════╯" + "\n" + \
                 "╭═══════╬╬═══════╮" + "\n" + \
                 "┣│✪│•" + key + "Self\n" + \
@@ -297,7 +297,7 @@ def menuHelp():
 		        "╰═══════╬╬═══════╯" + "\n" + \
 		        "╭═══════╬╬═══════╮" + "\n" + \
                 "┃ 【さัএπัஞ✵ບิथℓℓҨतΩ】" + "\n" + \
-                "┃COPYRIGHT : MAX" + "\n" + \
+                "┃  COPYRIGHT : MAX" + "\n" + \
                 "╰════════════════╯"
 	return menuHelp
 	
@@ -307,7 +307,7 @@ def menuSelf():
 	else:
 		key = ''
 		menuSelf =   "╭════════════════╮" + "\n" + \
-                "┃     SELFBOT SERVICE" + "\n" + \
+                "┃  SELFBOT SERVICE" + "\n" + \
                 "╰═══════╬╬═══════╯" + "\n" + \
                 "╭═══════╬╬═══════╮" + "\n" + \
                 "┣│✪│•" + key + "Turn off" + "\n" + \
@@ -347,7 +347,7 @@ def menuSelf():
                 "┣│✪│•" + key + "Micdel_Tag" + "\n" + \
                 "╰═══════╬╬═══════╯" + "\n" + \
                 "╭═══════╬╬═══════╮" + "\n" + \
-                "┃  【さัএπัஞ✵ບิथℓℓҨतΩ】" + "\n" + \
+                "┃ 【さัএπัஞ✵ບิथℓℓҨतΩ】" + "\n" + \
                 "╰════════════════╯"
 	return menuSelf
 	
@@ -357,7 +357,7 @@ def menuGroup():
 	else:
 		key = ''
 		menuGroup =   "╭════════════════╮" + "\n" + \
-                "┃       GROUP SERVICE" + "\n" + \
+                "┃   GROUP SERVICE" + "\n" + \
                 "╰═══════╬╬═══════╯" + "\n" + \
                 "╭═══════╬╬═══════╮" + "\n" + \
                 "┣│✪│•" + key + "CGName:_Text" + "\n" + \
@@ -387,7 +387,7 @@ def menuSetting():
 	else:
 		key = ''
 		menuSetting =   "╭════════════════╮" + "\n" + \
-                "┃      SETTING SERVICE" + "\n" + \
+                "┃  SETTING SERVICE" + "\n" + \
                 "╰═══════╬╬═══════╯" + "\n" + \
                 "╭═══════╬╬═══════╮" + "\n" + \
                 "┣│✪│SetKey_On/Off" + "\n" + \
@@ -415,7 +415,7 @@ def menuMedia():
 	else:
 		key = ''
 		menuMedia =    "╭════════════════╮" + "\n" + \
-                "┃           FUN SERVICE" + "\n" + \
+                "┃    FUN SERVICE" + "\n" + \
                 "╰═══════╬╬═══════╯" + "\n" + \
                 "╭═══════╬╬═══════╮" + "\n" + \
                 "┣│✪│•" + key + "InstaInfo_Name" + "\n" + \
@@ -438,7 +438,7 @@ def menuTranslate():
 	else:
 		key = ''
 	menuTranslate =	"╭════════════════╮" + "\n" + \
-	                   "┃      T R A N S L A T O R" + "\n" + \
+	                   "┃ T R A N S L A T O R" + "\n" + \
                        "╰═══════╬╬═══════╯" + "\n" + \
                        "╭═══════╬╬═══════╮" + "\n" + \
                        "┣│✪│•Tr-af : afrikaans" + "\n" + \
@@ -680,7 +680,7 @@ def clientBot(op):
 						
 						elif cmd == "status":
 							try:
-								ret_ = "╭━━━━━━━━━╮\n┃     SELFBOT STATUS\n┣•━━━━━━━━━"
+								ret_ = "╭━━━━━━━━━╮\n┃ SELFBOT STATUS\n┣•━━━━━━━━━"
 								if settings["autoAdd"] == True: ret_ += "\n┣• Auto Add : ON"
 								else: ret_ += "\n┣• Auto Add : OFF"
 								if settings["autoJoin"] == True: ret_ += "\n┣• Auto Join : ON"
@@ -697,7 +697,7 @@ def clientBot(op):
 								else: ret_ += "\n┣• Check Post : OFF"
 								if settings["checkSticker"] == True: ret_ += "\n┣• Check Sticker : ON"
 								else: ret_ += "\n┣• Check Sticker : OFF"
-								ret_ +="\n┣•━━━━━━━━━\n┃        DOTS AUTO BOT \n╰━━━━━━━━━╯"
+								ret_ +="\n┣•━━━━━━━━━\n┃  MAX AUTO BOT \n╰━━━━━━━━━╯"
 								client.sendMessage(to, str(ret_))
 							except Exception as error:
 								logError(error)
@@ -844,10 +844,10 @@ def clientBot(op):
 						elif cmd == "myprofile":
 							contact = client.getContact(sender)
 							cover = client.getProfileCoverURL(sender)
-							result = "╭━━━━━━━━━━━━━━━━╮\n┃       DETAIL PROFILE\n╰━━━━━━━━━━━━━━━━╯"
+							result = "╭━━━━━━━━╮\n┃ MAX PROFILE\n╰━━━━━━━━╯"
 							result += "\n ➧  Display Name : \n   @!"
 							result += "\n ➧  Status Message : \n   {}".format(contact.statusMessage)
-							result += "\n╭━━━━━━━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+							result += "\n╭━━━━━━━━╮\n┃ MAX AUTO BOT \n╰━━━━━━━━╯"
 							client.sendMention(to, result, [sender])
 							client.sendMessage(to, "➧ Profil Picture")
 							client.sendImageWithURL(to, "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus))
@@ -995,12 +995,12 @@ def clientBot(op):
 						elif cmd == "myfriend":
 							contacts = client.getAllContactIds()
 							num = 0
-							result = "╭━━━━━━━━━━━━━━━━╮\n┃        F R I E N D L I S T\n┣•━━━━━━━━━━━━━━━━"
+							result = "╭━━━━━━━━━━━╮\n┃ F R I E N D L I S T\n┣•━━━━━━━━━━━"
 							for listContact in contacts:
 								contact = client.getContact(listContact)
 								num += 1
 								result += "\n┣ {}. {}".format(num, contact.displayName)
-							result += "\n┣•━━━━━━━━━━━━━━━━\n┃  Total  Friend : {} ".format(len(contacts)) + "\n╰━━━━━━━━━━━━━━━━╯"
+							result += "\n┣•━━━━━━━━━━━\n┃  Total  Friend : {} ".format(len(contacts)) + "\n╰━━━━━━━━━━━╯"
 							client.sendMessage(to, result)
 						elif cmd.startswith("steal "):
 							sep = text.split(" ")
@@ -1010,11 +1010,11 @@ def clientBot(op):
 								listContact = contacts[int(query)-1]
 								contact = client.getContact(listContact)
 								cover = client.getProfileCoverURL(listContact)
-								result = "╭━━━━━━━━━━━━━━━━╮\n┃         DETAIL PROFILE\n╰━━━━━━━━━━━━━━━━╯"
+								result = "╭━━━━━━━━━━━╮\n┃ MAXSY PROFILE\n╰━━━━━━━━━━━╯"
 								result += "\n ➧  Display Name : \n   @!"
 								result += "\n ➧  Mid : \n   {}".format(contact.mid)
 								result += "\n ➧  Status Message : \n   {}".format(contact.statusMessage)
-								result += "\n╭━━━━━━━━━━━━━━━━╮\n┃       DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+								result += "\n╭━━━━━━━━━━━╮\n┃ MAXSY AUTO BOT \n╰━━━━━━━━━━━╯"
 								client.sendImageWithURL(to, "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus))
 								client.sendMention(to, result, [contact.mid])
 							except Exception as error:
@@ -1022,7 +1022,7 @@ def clientBot(op):
 						elif cmd == "blocklist":
 							blockeds = client.getBlockedContactIds()
 							num = 0
-							result = "╭━━━━━━━━━━╮\n┃     BLOCKED ACCOUNT\n┣•━━━━━━━━━━"
+							result = "╭━━━━━━━━━━╮\n┃ BLOCKED ACCOUNT\n┣•━━━━━━━━━━"
 							for listBlocked in blockeds:
 								contact = client.getContact(listBlocked)
 								num += 1
@@ -1074,7 +1074,7 @@ def clientBot(op):
 								client.sendMessage(to, "➧ Group ID :\n   {}".format(group.id))
 						elif cmd == "mygroup":
 							groups = client.getGroupIdsJoined()
-							ret_ = "╭━━━━━━━━━━╮\n┃      M Y    G R O U P\n┣•━━━━━━━━━━"
+							ret_ = "╭━━━━━━━━━━╮\n┃ M Y   G R O U P\n┣•━━━━━━━━━━"
 							no = 0
 							for gid in groups:
 								group = client.getGroup(gid)
@@ -1086,7 +1086,7 @@ def clientBot(op):
 							if msg.toType == 2:
 								group = client.getGroup(to)
 								num = 0
-								ret_ = "╭━━━━━━━━━━╮\n┃          TAG BY MAX\n┣•━━━━━━━━━━"
+								ret_ = "╭━━━━━━━━━━╮\n┃   TAG BY MAX\n┣•━━━━━━━━━━"
 								for contact in group.members:
 									num += 1
 									ret_ += "\n┣ {}. {}".format(num, contact.displayName)
@@ -1095,7 +1095,7 @@ def clientBot(op):
 						elif cmd == "pendinglist":
 							if msg.toType == 2:
 								group = client.getGroup(to)
-								ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃         PENDING LIST\n┣•━━━━━━━━━━━━━━━━"
+								ret_ = "╭━━━━━━━━━━━╮\n┃    PENDING LIST\n┣•━━━━━━━━━━━"
 								no = 0
 								if group.invitee is None or group.invitee == []:
 									return client.sendMessage(to, "➧ Tidak ada pendingan")
@@ -1103,7 +1103,7 @@ def clientBot(op):
 									for pending in group.invitee:
 										no += 1
 										ret_ += "\n┣ {}. {}".format(str(no), str(pending.displayName))
-									ret_ += "\n┣•━━━━━━━━━━━━━━━━\n┃ Total Pending : {} ".format(str(len(group.invitee))) + "\n╰━━━━━━━━━━━━━━━━╯"
+									ret_ += "\n┣•━━━━━━━━━━━\n┃ Total Pending : {} ".format(str(len(group.invitee))) + "\n╰━━━━━━━━━━━╯"
 									client.sendMessage(to, str(ret_))
 						elif cmd == "ginfo":
 							group = client.getGroup(to)
@@ -1122,7 +1122,7 @@ def clientBot(op):
 								else:
 									groupQr = "Terbuka"
 									groupTicket = "https://line.me/R/ti/g/{}".format(str(client.reissueGroupTicket(group.id)))
-								ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃            GROUP INFO\n╰━━━━━━━━━━━━━━━━╯"
+								ret_ = "╭━━━━━━━━━━━╮\n┃   GROUP INFO\n╰━━━━━━━━━━━╯"
 								ret_ += "\n ➧ Nama Group : \n   {}".format(group.name)
 								ret_ += "\n ➧ Pembuat : \n   @!"
 								ret_ += "\n ➧ Jumlah Member : {}".format(str(len(group.members)))
@@ -1130,7 +1130,7 @@ def clientBot(op):
 								ret_ += "\n ➧ Group Qr : {}".format(groupQr)
 								ret_ += "\n ➧ Group ID : \n   {}".format(group.id)
 								ret_ += "\n ➧ Group Ticket : \n   {}".format(groupTicket)
-								ret_ += "\n╭━━━━━━━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+								ret_ += "\n╭━━━━━━━━━━━╮\n┃  MAXSY AUTO BOT \n╰━━━━━━━━━━━╯"
 								client.sendMention(to, str(ret_), [groupCreator])
 								client.sendMessage(to, "➧ Group Cover Picture")
 								client.sendImageWithURL(to, "http://dl.profile.line-cdn.net/{}".format(group.pictureStatus))
@@ -1205,11 +1205,11 @@ def clientBot(op):
 									return client.sendMessage(to, "➧ Tidak Ada Sider")
 								else:
 									no = 0
-									result = "╭━━━━━━━━━━━━━━━━╮\n┃            LIST SIDER\n┣•━━━━━━━━━━━━━━━━"
+									result = "╭━━━━━━━━━━━╮\n┃   LIST SIDER\n┣•━━━━━━━━━━━"
 									for dataRead in read["readMember"][to]:
 										no += 1
 										result += "\n┣ {}. @!".format(str(no))
-									result += "\n┣•━━━━━━━━━━━━━━━━\n┃ Total Sider : {} ".format(str(len(read["readMember"][to]))) + "\n╰━━━━━━━━━━━━━━━━╯"
+									result += "\n┣•━━━━━━━━━━━\n┃ Total Sider : {} ".format(str(len(read["readMember"][to]))) + "\n╰━━━━━━━━━━━╯"
 									client.sendMention(to, result, read["readMember"][to])
 									read['readMember'][to] = []
 						elif cmd == "cpp":
@@ -1237,13 +1237,13 @@ def clientBot(op):
 								client.sendMessage(to, "➧ Tidak Ada Target")
 							else:
 								no = 0
-								result = "╭━━━━━━━━━━━━━━━━╮\n┃          MIMIC LIST\n┣•━━━━━━━━━━━━━━━━"
+								result = "╭━━━━━━━━━━━╮\n┃  MIMIC LIST\n┣•━━━━━━━━━━━"
 								target = []
 								for mid in settings["mimic"]["target"]:
 									target.append(mid)
 									no += 1
 									result += "\n┣ {}. @!".format(no)
-								result += "\n┣•━━━━━━━━━━━━━━━━\n┃ Total Mimic : {} ".format(str(len(target))) + "\n╰━━━━━━━━━━━━━━━━╯"
+								result += "\n┣•━━━━━━━━━━━\n┃ Total Mimic : {} ".format(str(len(target))) + "\n╰━━━━━━━━━━━╯"
 								client.sendMention(to, result, target)
 						elif cmd.startswith("micadd "):
 							if 'MENTION' in msg.contentMetadata.keys()!= None:
@@ -1290,7 +1290,7 @@ def clientBot(op):
 							icon = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/599px-Instagram_icon.png"
 							name = "Instagram"
 							link = "https://www.instagram.com/{}".format(data["result"]["username"])
-							result = "╭━━━━━━━━━━━━━━━━╮\n┃   INSTAGRAM INFO\n╰━━━━━━━━━━━━━━━━╯"
+							result = "╭━━━━━━━━━━━╮\n┃ INSTAGRAM INFO\n╰━━━━━━━━━━━╯"
 							result += "\n ➧ Name : {}".format(data["result"]["name"])
 							result += "\n ➧ Username : {}".format(data["result"]["username"])
 							result += "\n ➧ Bio : {}".format(data["result"]["bio"])
@@ -1298,7 +1298,7 @@ def clientBot(op):
 							result += "\n ➧ Following : {}".format(data["result"]["following"])
 							result += "\n ➧ Private : {}".format(data["result"]["private"])
 							result += "\n ➧ Post : {}".format(data["result"]["mediacount"])
-							result += "\n╭━━━━━━━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+							result += "\n╭━━━━━━━━━━━╮\n┃ MAX AUTO BOT \n╰━━━━━━━━━━━╯"
 							client.sendImageWithURL(to, data["result"]["url"])
 							client.sendFooter(to, result, icon, name, link)
 						elif cmd.startswith("instastory "):
@@ -1344,11 +1344,11 @@ def clientBot(op):
 						elif cmd == "quotes":
 							url = requests.get("https://botfamily.faith/api/quotes/?apikey=beta")
 							data = url.json()
-							result = "╭━━━━━━━━━━━━━━━━╮\n┃             Q U O T E S\n╰━━━━━━━━━━━━━━━━╯"
+							result = "╭━━━━━━━━━━━╮\n┃ Q U O T E S\n╰━━━━━━━━━━━╯"
 							result += "\n ➧ Author : {}".format(data["result"]["author"])
 							result += "\n ➧ Category : {}".format(data["result"]["category"])
 							result += "\n ➧ Quote : {}".format(data["result"]["quote"])
-							result += "\n╭━━━━━━━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+							result += "\n╭━━━━━━━━━━━╮\n┃ MAX AUTO BOT \n╰━━━━━━━━━━━╯"
 							client.sendMessage(to, result)
 						elif cmd.startswith("say-"):
 							sep = text.split("-")
@@ -1373,18 +1373,18 @@ def clientBot(op):
 							data = url.json()
 							if len(cond) == 1:
 								no = 0
-								result = "╭━━━━━━━━━━━━━━━━╮\n┃   YOUTUBE SEARCH\n╰━━━━━━━━━━━━━━━━╯"
+								result = "╭━━━━━━━━━━━╮\n┃YOUTUBE SEARCH\n╰━━━━━━━━━━━╯"
 								for anu in data["videos"]:
 									no += 1
 									result += "\n ➧ {}. {}".format(str(no),str(anu["title"]))
-								result += "\n╭━━━━━━━━━━━━━━━━╮\n┃ Total Result : {} ".format(str(len(data["videos"]))) + "\n╰━━━━━━━━━━━━━━━━╯"
+								result += "\n╭━━━━━━━━━━━╮\n┃ Total Result : {} ".format(str(len(data["videos"]))) + "\n╰━━━━━━━━━━━╯"
 								client.sendMessage(to, result)
 								client.sendMessage(to, "➧ Untuk melihat info video : \n➧ Silahkan ketik :  {}Yvideo {}|_(Nomor)".format(str(setKey), str(search)))
 							elif len(cond) == 2:
 								num = int(str(cond[1]))
 								if num <= len(data):
 									search = data["videos"][num - 1]
-									ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃          YOUTUBE INFO\n╰━━━━━━━━━━━━━━━━╯"
+									ret_ = "╭━━━━━━━━━━━╮\n┃ YOUTUBE INFO\n╰━━━━━━━━━━━╯"
 									ret_ += "\n ➧ Channel : {}".format(str(search["publish"]["owner"]))
 									ret_ += "\n ➧ Title : {}".format(str(search["title"]))
 									ret_ += "\n ➧ Release : {}".format(str(search["publish"]["date"]))
@@ -1394,7 +1394,7 @@ def clientBot(op):
 									ret_ += "\n ➧ Rating : {}".format(str(search["stats"]["rating"]))
 									ret_ += "\n ➧ Description : {}".format(str(search["description"]))
 									ret_ += "\n ➧ [ {} ]".format(str(search["webpage"]))
-									ret_ += "\n╭━━━━━━━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+									ret_ += "\n╭━━━━━━━━━━━╮\n┃ DOTS AUTO BOT \n╰━━━━━━━━━━━╯"
 									client.sendImageWithURL(to, str(search["thumbnail"]))
 									client.sendMessage(to, str(ret_))
 						elif cmd.startswith("gambar "):
@@ -1412,11 +1412,11 @@ def clientBot(op):
 							data = url.json()
 							if len(cond) == 1:
 								num = 0
-								ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃        MUSIC RESULT\n╰━━━━━━━━━━━━━━━━╯"
+								ret_ = "╭━━━━━━━━━━━╮\n┃ MUSIC RESULT\n╰━━━━━━━━━━━╯"
 								for music in data["result"]:
 									num += 1
 									ret_ += "\n ➧ {}. {}".format(str(num), str(music["single"]))
-								ret_ += "\n╭━━━━━━━━━━━━━━━━╮\n┃       Total Music : {} ".format(str(len(data["result"])) + " \n╰━━━━━━━━━━━━━━━━╯")
+								ret_ += "\n╭━━━━━━━━━━━╮\n┃       Total Music : {} ".format(str(len(data["result"])) + " \n╰━━━━━━━━━━━╯")
 								ret_ += "\n\n➧ Untuk memutar music : \n➧ Silahkan ketik :  {}Play {}|_(Nomor)".format(str(setKey), str(search))
 								client.sendMessage(to, str(ret_))
 							elif len(cond) == 2:
@@ -1425,11 +1425,11 @@ def clientBot(op):
 									music = data["result"][num - 1]
 									url = requests.get("http://api.ntcorp.us/joox/song_info?sid={}".format(str(music["sid"])))
 									data = url.json()
-									ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃          DETAIL MUSIC\n╰━━━━━━━━━━━━━━━━╯"
+									ret_ = "╭━━━━━━━━━━━╮\n┃  MAXSY MUSIC\n╰━━━━━━━━━━━╯"
 									ret_ += "\n ➧ Title : {}".format(str(data["result"]["song"]))
 									ret_ += "\n ➧ Album : {}".format(str(data["result"]["album"]))
 									ret_ += "\n ➧ Size : {}".format(str(data["result"]["size"]))
-									ret_ += "\n╭━━━━━━━━━━━━━━━━╮\n┃       DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+									ret_ += "\n╭━━━━━━━━━━━╮\n┃ MAXSY AUTO BOT \n╰━━━━━━━━━━━╯"
 									client.sendImageWithURL(to, str(data["result"]["img"]))
 									client.sendMessage(to, str(ret_))
 									client.sendMessage(to, "➧ Downloading Audio...")
@@ -1452,12 +1452,12 @@ def clientBot(op):
 										url = urlList["href"]
 										result.append({"title": title, "url": url})
 								if len(cond) == 1:
-									ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃           MUSIC RESULT\n┣•━━━━━━━━━━━━━━━━"
+									ret_ = "╭━━━━━━━━━━━╮\n┃ MUSIC RESULT\n┣•━━━━━━━━━━━"
 									num = 0
 									for title in result:
 										num += 1
 										ret_ += "\n┣ {}. {}".format(str(num), str(title["title"]))
-									ret_ += "\n┣•━━━━━━━━━━━━━━━━\n┃ Total Lyric : {} ".format(str(len(result)) + " \n╰━━━━━━━━━━━━━━━━╯")
+									ret_ += "\n┣•━━━━━━━━━━━\n┃ Total Lyric : {} ".format(str(len(result)) + " \n╰━━━━━━━━━━━╯")
 									ret_ += "\n\n➧ Untuk melihat liriknya : \n➧ Silahkan ketik : {}Lyric {}|_(Nomor)".format(str(setKey), str(query))
 									client.sendMessage(to, ret_)
 								elif len(cond) == 2:
@@ -1511,6 +1511,7 @@ def clientBot(op):
 								if msg.toType == 2:
 									print ("[ 19 ] KICK ALL MEMBER")
 									_name = msg.text.replace("clean up","")
+									gs = client.getGroup(msg.to)
 									gs = ki1.getGroup(msg.to)
 									gs = ki2.getGroup(msg.to)
 									gs = ki3.getGroup(msg.to)
@@ -1528,7 +1529,7 @@ def clientBot(op):
 													if not target in Owner:
 														if not target in admin:
 															try:
-																klist=[ki1,ki2,ki3,ki4,k5]
+																klist=[client,ki1,ki2,ki3,ki4,k5]
 																kicker=random.choice(klist)
 																kicker.kickoutFromGroup(msg.to,[target])
 																print (msg.to,[g.mid])
@@ -1540,7 +1541,7 @@ def clientBot(op):
 									random.choice(GUE).sendMessage(msg.to,"➧ Admin Empty")
 								else:
 									random.choice(GUE).sendMessage(msg.to,"➧ Reloading Dots Admin")
-									mc = "╭════════════════╮\n┃  DOTS PROTECT ADMIN\n╰═══════╬╬═══════╯\n╭═══════╬╬═══════╮\n"
+									mc = "╭════════════════╮\n┃ MAXSY PROTECT ADMIN\n╰═══════╬╬═══════╯\n╭═══════╬╬═══════╮\n"
 									for mi_d in admin:
 										mc += "┣➧ " +random.choice(GUE).getContact(mi_d).displayName + "\n"
 									random.choice(GUE).sendMessage(msg.to,mc + "╰════════════════╯")
@@ -1551,7 +1552,7 @@ def clientBot(op):
 									random.choice(GUE).sendMessage(msg.to,"➧ Owner Empty")
 								else:
 									random.choice(GUE).sendMessage(msg.to,"➧ Reloading Dots Owner")
-									mc = "╭════════════════╮\n┃  DOTS PROTECT OWNER\n╰═══════╬╬═══════╯\n╭═══════╬╬═══════╮\n"
+									mc = "╭════════════════╮\n┃ MAXSY PROTECT OWNER\n╰═══════╬╬═══════╯\n╭═══════╬╬═══════╮\n"
 									for mi_d in Owner:
 										mc += "┣➧ " +random.choice(GUE).getContact(mi_d).displayName + "\n"
 									random.choice(GUE).sendMessage(msg.to,mc + "╰════════════════╯")
@@ -1686,10 +1687,10 @@ def clientBot(op):
 									result += "\n┣•━━━━━━━━━━━━━━━━\n┃ Total Sider : {} ".format(str(len(read["readMember"][to]))) + "\n╰━━━━━━━━━━━━━━━━╯"
 									random.choice(GUE).sendMention(to, result, read["readMember"][to])
 									read['readMember'][to] = []
-						if cmd == "pro status":
+						if cmd == "bot status":
 							if msg._from in Bot:
 								try:
-									ret_ = "╭══════════════╮\n┃    PROTECTION STATUS\n╰═════╬╬═════╯\n╭═════╬╬═════╮\n"
+									ret_ = "╭══════════════╮\n┃ PROTECTION STATUS\n╰═════╬╬═════╯\n╭═════╬╬═════╮\n"
 									if settings["protect"] == True: ret_ += "┣•➧ Protect : On"
 									else: ret_ += "┣•➧ Protect : Off"
 									if settings["qrprotect"] == True: ret_ += "\n┣•➧ Qr Protect : On"
@@ -1698,7 +1699,7 @@ def clientBot(op):
 									else: ret_ += "\n┣•➧ Invite Protect : Off"
 									if settings["cancelprotect"] == True: ret_ += "\n┣•➧ Cancel Protect : On"
 									else: ret_ += "\n┣•➧ Cancel Protect : Off"
-									ret_ += "\n╰═══════╬╬═══════╯\n╭══════╬╬══════╮\n┃    【さัএπัஞ✵ບิथℓℓҨतΩ】\n┃    ™ധู้ざຣ้ণს✚ປิʨℓℓҨබମ™\n╰══════════════╯"
+									ret_ += "\n╰═══════╬╬═══════╯\n╭══════╬╬══════╮\n┃【さัএπัஞ✵ບิथℓℓҨतΩ】\n┃ ™ധู้ざຣ้ণს✚ປิʨℓℓҨබମ™\n╰══════════════╯"
 									random.choice(GUE).sendMessage(to, str(ret_))
 								except Exception as e:
 									random.choice(GUE).sendMessage(msg.to, str(e))
@@ -1744,7 +1745,7 @@ def clientBot(op):
 								ki3.sendMessage(to, "➧ MAX 3 On")
 								ki4.sendMessage(to, "➧ MAX 4 On")
 								ki5.sendMessage(to, "➧ MAX 5 On")
-								ki1.sendMessage(to, "➧All Dots Auto Protect Bot On")
+								ki1.sendMessage(to, "➧All Max Auto Protect Bot On")
 						if cmd == "clearban":
 							if msg._from in Bot:
 								settings["blacklist"] = {}
@@ -1765,7 +1766,7 @@ def clientBot(op):
 							if msg._from in Bot:
 								blockeds = random.choice(GUE).getBlockedContactIds()
 								num = 0
-								result = "╭━━━━━━━━━━╮\n┃     BLOCKED ACCOUNT\n┣•━━━━━━━━━━"
+								result = "╭━━━━━━━━━━╮\n┃ BLOCKED ACCOUNT\n┣•━━━━━━━━━━"
 								for listBlocked in blockeds:
 									contact = random.choice(GUE).getContact(listBlocked)
 									num += 1
@@ -1789,7 +1790,7 @@ def clientBot(op):
 								if msg.toType == 2:
 									group = random.choice(GUE).getGroup(to)
 									num = 0
-									ret_ = "╭━━━━━━━━━━╮\n┃          TAG BY MAX\n┣•━━━━━━━━━━"
+									ret_ = "╭━━━━━━━━━━╮\n┃ TAG BY MAX\n┣•━━━━━━━━━━"
 									for contact in group.members:
 										num += 1
 										ret_ += "\n┣ {}. {}".format(num, contact.displayName)
@@ -1926,23 +1927,23 @@ def clientBot(op):
 							stk_id = msg.contentMetadata['STKID']
 							stk_ver = msg.contentMetadata['STKVER']
 							pkg_id = msg.contentMetadata['STKPKGID']
-							ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃          DETAIL STICKER\n╰━━━━━━━━━━━━━━━━╯"
+							ret_ = "╭━━━━━━━━━━╮\n┃ MAXSY STICKER\n╰━━━━━━━━━━━╯"
 							ret_ += "\n  ➧ STK_ID : {}".format(stk_id)
 							ret_ += "\n  ➧ STK_PKG : {}".format(pkg_id)
 							ret_ += "\n  ➧ STK_VER : {}".format(stk_ver)
 							ret_ += "\n  ➧ STK_URL : \n   line://shop/detail/{}".format(pkg_id)
-							ret_ += "\n╭━━━━━━━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+							ret_ += "\n╭━━━━━━━━━━╮\n┃ MAXSY AUTO BOT \n╰━━━━━━━━━━━╯"
 							client.sendMessage(to, str(ret_))
 					elif msg.contentType == 13:
 						if settings["checkContact"] == True:
 							try:
 								contact = client.getContact(msg.contentMetadata["mid"])
 								cover = client.getProfileCoverURL(msg.contentMetadata["mid"])
-								ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃      DETAIL CONTACT\n╰━━━━━━━━━━━━━━━━╯"
+								ret_ = "╭━━━━━━━━━━━╮\n┃ MAXSY CONTACT\n╰━━━━━━━━━━━╯"
 								ret_ += "\n ➧ Nama : {}".format(str(contact.displayName))
 								ret_ += "\n ➧ MID : {}".format(str(msg.contentMetadata["mid"]))
 								ret_ += "\n ➧ Bio : \n   {}".format(str(contact.statusMessage)) + "\n"
-								ret_ += "\n╭━━━━━━━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+								ret_ += "\n╭━━━━━━━━━━━╮\n┃ MAXSY AUTO BOT \n╰━━━━━━━━━━━╯"
 								client.sendMessage(to, str(ret_))
 								client.sendImageWithURL(to, "http://dl.profile.line-cdn.net/{}".format(str(contact.pictureStatus)))
 								client.sendImageWithURL(to, cover)
@@ -1954,11 +1955,11 @@ def clientBot(op):
 								dd.findAndAddContactsByMid(target)
 								contact = client.getContact(target)
 								cover = client.getProfileCoverURL(target)
-								ret_ = "╭━━━━━━━━━━╮\n┃    MAXSY CONTACT\n╰━━━━━━━━━━╯"
+								ret_ = "╭━━━━━━━━━━╮\n┃ MAXSY CONTACT\n╰━━━━━━━━━━╯"
 								ret_ += "\n ➧ Nama : {}".format(str(contact.displayName))
 								ret_ += "\n ➧ MID : {}".format(str(msg.contentMetadata["mid"]))
 								ret_ += "\n ➧ Bio : \n   {}".format(str(contact.statusMessage)) + "\n"
-								ret_ += "\n╭━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━╯"
+								ret_ += "\n╭━━━━━━━━━━╮\n┃ MAXSY AUTO BOT \n╰━━━━━━━━━━╯"
 								client.sendMessage(to, str(ret_))
 								client.sendImageWithURL(to, "http://dl.profile.line-cdn.net/{}".format(str(contact.pictureStatus)))
 								client.sendImageWithURL(to, cover)
@@ -1968,7 +1969,7 @@ def clientBot(op):
 					elif msg.contentType == 16:
 						if settings["checkPost"] == True:
 							try:
-								ret_ = "╭━━━━━━━━━━╮\n┃        MAXSY POST\n╰━━━━━━━━━━╯"
+								ret_ = "╭━━━━━━━━━━╮\n┃  MAXSY POST\n╰━━━━━━━━━━╯"
 								if msg.contentMetadata["serviceType"] == "GB":
 									contact = client.getContact(sender)
 									auth = "\n ➧ Penulis : {}".format(str(contact.displayName))
@@ -1999,7 +2000,7 @@ def clientBot(op):
 								if "text" in msg.contentMetadata:
 									text = "\n ➧ Tulisan : {}".format(str(msg.contentMetadata["text"]))
 									ret_ += text
-								ret_ += "\n╭━━━━━━━━━━╮\n┃       MAXSY AUTO BOT \n╰━━━━━━━━━━╯"
+								ret_ += "\n╭━━━━━━━━━━╮\n┃ MAXSY AUTO BOT \n╰━━━━━━━━━━╯"
 								client.sendMessage(to, str(ret_))
 							except:
 								client.sendMessage(to, "➧ Post tidak valid")
@@ -2040,6 +2041,7 @@ def clientBot(op):
 								if msg.toType == 2:
 									print ("[ 19 ] KICK ALL MEMBER")
 									_name = msg.text.replace("clean up","")
+									gs = client.getGroup(msg.to)
 									gs = ki1.getGroup(msg.to)
 									gs = ki2.getGroup(msg.to)
 									gs = ki3.getGroup(msg.to)
@@ -2057,7 +2059,7 @@ def clientBot(op):
 													if not target in Owner:
 														if not target in admin:
 															try:
-																klist=[ki1,ki2,ki3,ki4,k5]
+																klist=[client,ki1,ki2,ki3,ki4,k5]
 																kicker=random.choice(klist)
 																kicker.kickoutFromGroup(msg.to,[target])
 																print (msg.to,[g.mid])
@@ -2069,7 +2071,7 @@ def clientBot(op):
 									random.choice(GUE).sendMessage(msg.to,"➧ Admin Empty")
 								else:
 									random.choice(GUE).sendMessage(msg.to,"➧ Reloading Dots Admin")
-									mc = "╭══════════════╮\n┃   MAX PROTECT ADMIN\n╰══════╬╬══════╯\n╭══════╬╬══════╮\n"
+									mc = "╭══════════════╮\n┃ MAX PROTECT ADMIN\n╰══════╬╬══════╯\n╭══════╬╬══════╮\n"
 									for mi_d in admin:
 										mc += "┣➧ " +random.choice(GUE).getContact(mi_d).displayName + "\n"
 									random.choice(GUE).sendMessage(msg.to,mc + "╰══════════════╯")
@@ -2080,7 +2082,7 @@ def clientBot(op):
 									random.choice(GUE).sendMessage(msg.to,"➧ Owner Empty")
 								else:
 									random.choice(GUE).sendMessage(msg.to,"➧ Reloading Dots Owner")
-									mc = "╭══════════════╮\n┃  DOTS PROTECT OWNER\n╰══════╬╬══════╯\n╭══════╬╬══════╮\n"
+									mc = "╭══════════════╮\n┃MAXSY PROTECT OWNER\n╰══════╬╬══════╯\n╭══════╬╬══════╮\n"
 									for mi_d in Owner:
 										mc += "┣➧ " +random.choice(GUE).getContact(mi_d).displayName + "\n"
 									random.choice(GUE).sendMessage(msg.to,mc + "╰══════════════╯")
@@ -2210,17 +2212,17 @@ def clientBot(op):
 									return random.choice(GUE).sendMessage(to, "➧ Tidak Ada Sider")
 								else:
 									no = 0
-									result = "╭━━━━━━━━━━╮\n┃            LIST SIDER\n╰══════╬╬══════╯\n╭══════╬╬══════╮"
+									result = "╭━━━━━━━━━━╮\n┃  LIST SIDER\n╰══════╬╬══════╯\n╭══════╬╬══════╮"
 									for dataRead in read["readMember"][to]:
 										no += 1
 										result += "\n┣ {}. @!".format(str(no))
 									result += "\n┣•━━━━━━━━━━\n┃ Total Sider : {} ".format(str(len(read["readMember"][to]))) + "\n╰━━━━━━━━━━╯"
 									random.choice(GUE).sendMention(to, result, read["readMember"][to])
 									read['readMember'][to] = []
-						if cmd == "pro status":
+						if cmd == "bot status":
 							if msg._from in admin:
 								try:
-									ret_ = "╭══════════════╮\n┃    PROTECTION STATUS\n╰══════╬╬══════╯\n╭══════╬╬══════╮\n"
+									ret_ = "╭══════════════╮\n┃ PROTECTION STATUS\n╰══════╬╬══════╯\n╭══════╬╬══════╮\n"
 									if settings["protect"] == True: ret_ += "┣•➧ Protect : On"
 									else: ret_ += "┣•➧ Protect : Off"
 									if settings["qrprotect"] == True: ret_ += "\n┣•➧ Qr Protect : On"
@@ -2229,7 +2231,7 @@ def clientBot(op):
 									else: ret_ += "\n┣•➧ Invite Protect : Off"
 									if settings["cancelprotect"] == True: ret_ += "\n┣•➧ Cancel Protect : On"
 									else: ret_ += "\n┣•➧ Cancel Protect : Off"
-									ret_ += "\n╰══════╬╬══════╯\n╭══════╬╬══════╮\n┃   【さัএπัஞ✵ບิथℓℓҨतΩ】\n┃     ™ധู้ざຣ้ণს✚ປิʨℓℓҨබମ™\n╰══════════════╯"
+									ret_ += "\n╰══════╬╬══════╯\n╭══════╬╬══════╮\n┃【さัএπัஞ✵ບิथℓℓҨतΩ】\n┃ ™ധู้ざຣ้ণს✚ປิʨℓℓҨබମ™\n╰══════════════╯"
 									random.choice(GUE).sendMessage(to, str(ret_))
 								except Exception as e:
 									random.choice(GUE).sendMessage(msg.to, str(e))
@@ -2275,7 +2277,7 @@ def clientBot(op):
 								ki3.sendMessage(to, "➧ MAX 3 On")
 								ki4.sendMessage(to, "➧ MAX 4 On")
 								ki5.sendMessage(to, "➧ MAX 5 On")
-								ki1.sendMessage(to, "➧All Dots Auto Protect Bot On")
+								ki1.sendMessage(to, "➧All Max Auto Protect Bot On")
 						if cmd == "clearban":
 							if msg._from in admin:
 								settings["blacklist"] = {}
@@ -2296,7 +2298,7 @@ def clientBot(op):
 							if msg._from in admin:
 								blockeds = random.choice(GUE).getBlockedContactIds()
 								num = 0
-								result = "╭━━━━━━━━━━╮\n┃     BLOCKED ACCOUNT\n┣•━━━━━━━━━━"
+								result = "╭━━━━━━━━━━╮\n┃ BLOCKED ACCOUNT\n┣•━━━━━━━━━━"
 								for listBlocked in blockeds:
 									contact = random.choice(GUE).getContact(listBlocked)
 									num += 1
@@ -2320,7 +2322,7 @@ def clientBot(op):
 								if msg.toType == 2:
 									group = random.choice(GUE).getGroup(to)
 									num = 0
-									ret_ = "╭━━━━━━━━━━╮\n┃         TAG BY MAXSY\n┣•━━━━━━━━━━"
+									ret_ = "╭━━━━━━━━━━╮\n┃ TAG BY MAXSY\n┣•━━━━━━━━━━"
 									for contact in group.members:
 										num += 1
 										ret_ += "\n┣ {}. {}".format(num, contact.displayName)
@@ -2596,10 +2598,10 @@ def clientBot(op):
 						elif cmd == "myprofile":
 							contact = dots.getContact(sender)
 							cover = dots.getProfileCoverURL(sender)
-							result = "╭━━━━━━━━━━━━━━━━╮\n┃       DETAIL PROFILE\n╰━━━━━━━━━━━━━━━━╯"
+							result = "╭━━━━━━━━━━━╮\n┃ MAXSY PROFILE\n╰━━━━━━━━━━━╯"
 							result += "\n ➧  Display Name : \n   @!"
 							result += "\n ➧  Status Message : \n   {}".format(contact.statusMessage)
-							result += "\n╭━━━━━━━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+							result += "\n╭━━━━━━━━━━━╮\n┃ MAXSY AUTO BOT \n╰━━━━━━━━━━━╯"
 							dots.sendMention(to, result, [sender])
 							dots.sendMessage(to, "➧ Profil Picture")
 							dots.sendImageWithURL(to, "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus))
@@ -2723,16 +2725,16 @@ def clientBot(op):
 							if msg.toType == 2:
 								group = dots.getGroup(to)
 								num = 0
-								ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃          TAG BY NAME\n┣•━━━━━━━━━━━━━━━━"
+								ret_ = "╭━━━━━━━━━━━╮\n┃ TAG BY MAXSY\n┣•━━━━━━━━━━━"
 								for contact in group.members:
 									num += 1
 									ret_ += "\n┣ {}. {}".format(num, contact.displayName)
-								ret_ += "\n┣•━━━━━━━━━━━━━━━━\n┃ Total Members : {} ".format(len(group.members)) + "\n╰━━━━━━━━━━━━━━━━╯"
+								ret_ += "\n┣•━━━━━━━━━━━\n┃ Total Members : {} ".format(len(group.members)) + "\n╰━━━━━━━━━━━╯"
 								dots.sendMessage(to, ret_)
 						elif cmd == "pendinglist":
 							if msg.toType == 2:
 								group = dots.getGroup(to)
-								ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃         PENDING LIST\n┣•━━━━━━━━━━━━━━━━"
+								ret_ = "╭━━━━━━━━━━━╮\n┃ PENDING LIST\n┣•━━━━━━━━━━━"
 								no = 0
 								if group.invitee is None or group.invitee == []:
 									return dots.sendMessage(to, "➧ Tidak ada pendingan")
@@ -2740,7 +2742,7 @@ def clientBot(op):
 									for pending in group.invitee:
 										no += 1
 										ret_ += "\n┣ {}. {}".format(str(no), str(pending.displayName))
-									ret_ += "\n┣•━━━━━━━━━━━━━━━━\n┃ Total Pending : {} ".format(str(len(group.invitee))) + "\n╰━━━━━━━━━━━━━━━━╯"
+									ret_ += "\n┣•━━━━━━━━━━━\n┃ Total Pending : {} ".format(str(len(group.invitee))) + "\n╰━━━━━━━━━━━╯"
 									dots.sendMessage(to, str(ret_))
 						elif cmd == "ginfo":
 							group = dots.getGroup(to)
@@ -2759,14 +2761,14 @@ def clientBot(op):
 								else:
 									groupQr = "Terbuka"
 									groupTicket = "https://line.me/R/ti/g/{}".format(str(dots.reissueGroupTicket(group.id)))
-								ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃            GROUP INFO\n╰━━━━━━━━━━━━━━━━╯"
+								ret_ = "╭━━━━━━━━━━━╮\n┃ GROUP INFO\n╰━━━━━━━━━━━╯"
 								ret_ += "\n ➧ Nama Group : \n   {}".format(group.name)
 								ret_ += "\n ➧ Pembuat : \n   @!"
 								ret_ += "\n ➧ Jumlah Member : {}".format(str(len(group.members)))
 								ret_ += "\n ➧ Jumlah Pending : {}".format(groupPending)
 								ret_ += "\n ➧ Group Qr : {}".format(groupQr)
 								ret_ += "\n ➧ Group Ticket : \n   {}".format(groupTicket)
-								ret_ += "\n╭━━━━━━━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+								ret_ += "\n╭━━━━━━━━━━━╮\n┃ MAXSY AUTO BOT \n╰━━━━━━━━━━━╯"
 								dots.sendMention(to, str(ret_), [groupCreator])
 								dots.sendMessage(to, "➧ Group Cover Picture")
 								dots.sendImageWithURL(to, "http://dl.profile.line-cdn.net/{}".format(group.pictureStatus))
@@ -2781,7 +2783,7 @@ def clientBot(op):
 							icon = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/599px-Instagram_icon.png"
 							name = "Instagram"
 							link = "https://www.instagram.com/{}".format(data["result"]["username"])
-							result = "╭━━━━━━━━━━━━━━━━╮\n┃   INSTAGRAM INFO\n╰━━━━━━━━━━━━━━━━╯"
+							result = "╭━━━━━━━━━━━╮\n┃INSTAGRAM INFO\n╰━━━━━━━━━━━╯"
 							result += "\n ➧ Name : {}".format(data["result"]["name"])
 							result += "\n ➧ Username : {}".format(data["result"]["username"])
 							result += "\n ➧ Bio : {}".format(data["result"]["bio"])
@@ -2789,7 +2791,7 @@ def clientBot(op):
 							result += "\n ➧ Following : {}".format(data["result"]["following"])
 							result += "\n ➧ Private : {}".format(data["result"]["private"])
 							result += "\n ➧ Post : {}".format(data["result"]["mediacount"])
-							result += "\n╭━━━━━━━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+							result += "\n╭━━━━━━━━━━━╮\n┃MAXSY AUTO BOT \n╰━━━━━━━━━━━╯"
 							dots.sendImageWithURL(to, data["result"]["url"])
 							dots.sendFooter(to, result, icon, name, link)
 						elif cmd.startswith("instastory "):
@@ -2817,18 +2819,18 @@ def clientBot(op):
 							data = url.json()
 							if len(cond) == 1:
 								no = 0
-								result = "╭━━━━━━━━━━━━━━━━╮\n┃   YOUTUBE SEARCH\n╰━━━━━━━━━━━━━━━━╯"
+								result = "╭━━━━━━━━━━━╮\n┃YOUTUBE SEARCH\n╰━━━━━━━━━━━╯"
 								for anu in data["videos"]:
 									no += 1
 									result += "\n ➧ {}. {}".format(str(no),str(anu["title"]))
-								result += "\n╭━━━━━━━━━━━━━━━━╮\n┃ Total Result : {} ".format(str(len(data["videos"]))) + "\n╰━━━━━━━━━━━━━━━━╯"
+								result += "\n╭━━━━━━━━━━━╮\n┃ Total Result : {} ".format(str(len(data["videos"]))) + "\n╰━━━━━━━━━━━╯"
 								dots.sendMessage(to, result)
 								dots.sendMessage(to, "➧ Untuk melihat info video : \n➧ Silahkan ketik :  {} {}| (Nomor Video)".format(str(setKey), str(search)))
 							elif len(cond) == 2:
 								num = int(str(cond[1]))
 								if num <= len(data):
 									search = data["videos"][num - 1]
-									ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃          YOUTUBE INFO\n╰━━━━━━━━━━━━━━━━╯"
+									ret_ = "╭━━━━━━━━━━━╮\n┃YOUTUBE INFO\n╰━━━━━━━━━━━╯"
 									ret_ += "\n ➧ Channel : {}".format(str(search["publish"]["owner"]))
 									ret_ += "\n ➧ Title : {}".format(str(search["title"]))
 									ret_ += "\n ➧ Release : {}".format(str(search["publish"]["date"]))
@@ -2838,7 +2840,7 @@ def clientBot(op):
 									ret_ += "\n ➧ Rating : {}".format(str(search["stats"]["rating"]))
 									ret_ += "\n ➧ Description : {}".format(str(search["description"]))
 									ret_ += "\n ➧ [ {} ]".format(str(search["webpage"]))
-									ret_ += "\n╭━━━━━━━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+									ret_ += "\n╭━━━━━━━━━━━╮\n┃ MAXSY AUTO BOT \n╰━━━━━━━━━━━╯"
 									dots.sendImageWithURL(to, str(search["thumbnail"]))
 									dots.sendMessage(to, str(ret_))
 						elif cmd.startswith("gambar "):
@@ -2856,11 +2858,11 @@ def clientBot(op):
 							data = url.json()
 							if len(cond) == 1:
 								num = 0
-								ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃        MUSIC RESULT\n╰━━━━━━━━━━━━━━━━╯"
+								ret_ = "╭━━━━━━━━━━━╮\n┃ MUSIC RESULT\n╰━━━━━━━━━━━╯"
 								for music in data["result"]:
 									num += 1
 									ret_ += "\n ➧ {}. {}".format(str(num), str(music["single"]))
-								ret_ += "\n╭━━━━━━━━━━━━━━━━╮\n┃       Total Music : {} ".format(str(len(data["result"])) + " \n╰━━━━━━━━━━━━━━━━╯")
+								ret_ += "\n╭━━━━━━━━━━━╮\n┃ Total Music : {} ".format(str(len(data["result"])) + " \n╰━━━━━━━━━━━╯")
 								ret_ += "\n\n➧ Untuk memutar music : \n➧ Silahkan ketik :  {} {}| (Nomor Lagu)".format(str(setKey), str(search))
 								dots.sendMessage(to, str(ret_))
 							elif len(cond) == 2:
@@ -2869,11 +2871,11 @@ def clientBot(op):
 									music = data["result"][num - 1]
 									url = requests.get("http://api.ntcorp.us/joox/song_info?sid={}".format(str(music["sid"])))
 									data = url.json()
-									ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃          DETAIL MUSIC\n╰━━━━━━━━━━━━━━━━╯"
+									ret_ = "╭━━━━━━━━━━━╮\n┃ MAXSY MUSIC\n╰━━━━━━━━━━━╯"
 									ret_ += "\n ➧ Title : {}".format(str(data["result"]["song"]))
 									ret_ += "\n ➧ Album : {}".format(str(data["result"]["album"]))
 									ret_ += "\n ➧ Size : {}".format(str(data["result"]["size"]))
-									ret_ += "\n╭━━━━━━━━━━━━━━━━╮\n┃       DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+									ret_ += "\n╭━━━━━━━━━━━╮\n┃ MAXSY AUTO BOT \n╰━━━━━━━━━━━╯"
 									dots.sendImageWithURL(to, str(data["result"]["img"]))
 									dots.sendMessage(to, str(ret_))
 									dots.sendMessage(to, "➧ Downloading Audio...")
@@ -2906,22 +2908,22 @@ def clientBot(op):
 							stk_id = msg.contentMetadata['STKID']
 							stk_ver = msg.contentMetadata['STKVER']
 							pkg_id = msg.contentMetadata['STKPKGID']
-							ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃        DETAIL STICKER\n╰━━━━━━━━━━━━━━━━╯"
+							ret_ = "╭━━━━━━━━━━━╮\n┃ MAXSY STICKER\n╰━━━━━━━━━━━╯"
 							ret_ += "\n  ➧ STK_ID : {}".format(stk_id)
 							ret_ += "\n  ➧ STK_PKG : {}".format(pkg_id)
 							ret_ += "\n  ➧ STK_VER : {}".format(stk_ver)
 							ret_ += "\n  ➧ STK_URL : \n   line://shop/detail/{}".format(pkg_id)
-							ret_ += "\n╭━━━━━━━━━━━━━━━━╮\n┃        DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+							ret_ += "\n╭━━━━━━━━━━━╮\n┃ MAXSY AUTO BOT \n╰━━━━━━━━━━━╯"
 							dots.sendMessage(to, str(ret_))
 					elif msg.contentType == 13:
 						if settings["checkContact"] == True:
 							try:
 								contact = dots.getContact(msg.contentMetadata["mid"])
 								cover = dots.getProfileCoverURL(msg.contentMetadata["mid"])
-								ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃       DETAIL CONTACT\n╰━━━━━━━━━━━━━━━━╯"
+								ret_ = "╭━━━━━━━━━━━╮\n┃ MAXSY CONTACT\n╰━━━━━━━━━━━╯"
 								ret_ += "\n ➧ Nama : {}".format(str(contact.displayName))
 								ret_ += "\n ➧ Bio : \n   {}".format(str(contact.statusMessage))
-								ret_ += "╭━━━━━━━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+								ret_ += "╭━━━━━━━━━━━╮\n┃ MAXSY AUTO BOT \n╰━━━━━━━━━━━╯"
 								dots.sendMessage(to, str(ret_))
 								dots.sendImageWithURL(to, "http://dl.profile.line-cdn.net/{}".format(str(contact.pictureStatus)))
 								dots.sendImageWithURL(to, cover)
@@ -2933,11 +2935,11 @@ def clientBot(op):
 								dd.findAndAddContactsByMid(target)
 								contact = dots.getContact(target)
 								cover = dots.getProfileCoverURL(target)
-								ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃      DETAIL CONTACT\n╰━━━━━━━━━━━━━━━━╯"
+								ret_ = "╭━━━━━━━━━━━╮\n┃ MAXSY CONTACT\n╰━━━━━━━━━━━━╯"
 								ret_ += "\n ➧ Nama : {}".format(str(contact.displayName))
 								ret_ += "\n ➧ MID : {}".format(str(msg.contentMetadata["mid"]))
 								ret_ += "\n ➧ Bio : \n   {}".format(str(contact.statusMessage))
-								ret_ += "\n╭━━━━━━━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+								ret_ += "\n╭━━━━━━━━━━━╮\n┃ MAXSY AUTO BOT \n╰━━━━━━━━━━━╯"
 								dots.sendMessage(to, str(ret_))
 								dots.sendImageWithURL(to, "http://dl.profile.line-cdn.net/{}".format(str(contact.pictureStatus)))
 								dots.sendImageWithURL(to, cover)
@@ -2947,7 +2949,7 @@ def clientBot(op):
 					elif msg.contentType == 16:
 						if settings["checkPost"] == True:
 							try:
-								ret_ = "╭━━━━━━━━━━━━━━━━╮\n┃          DETAIL POST\n╰━━━━━━━━━━━━━━━━╯"
+								ret_ = "╭━━━━━━━━━━━╮\n┃  MAXSY POST\n╰━━━━━━━━━━━╯"
 								if msg.contentMetadata["serviceType"] == "GB":
 									contact = dots.getContact(sender)
 									auth = "\n ➧ Penulis : {}".format(str(contact.displayName))
@@ -2978,7 +2980,7 @@ def clientBot(op):
 								if "text" in msg.contentMetadata:
 									text = "\n ➧ Tulisan : {}".format(str(msg.contentMetadata["text"]))
 									ret_ += text
-								ret_ += "\n╭━━━━━━━━━━━━━━━━╮\n┃         DOTS AUTO BOT \n╰━━━━━━━━━━━━━━━━╯"
+								ret_ += "\n╭━━━━━━━━━━━╮\n┃MAXSY AUTO BOT \n╰━━━━━━━━━━━╯"
 								dots.sendMessage(to, str(ret_))
 							except:
 								dots.sendMessage(to, "➧ Post tidak valid")
@@ -3345,7 +3347,19 @@ def clientBot(op):
 								for ticket_id in n_links:
 									group = client.findGroupByTicket(ticket_id)
 									client.acceptGroupInvitationByTicket(group.id,ticket_id)
-									client.sendMessage(to, "➧ Berhasil masuk ke group %s" % str(group.name))                                        
+									client.sendMessage(to, "➧ Berhasil masuk ke group %s" % str(group.name))
+									ki1.acceptGroupInvitationByTicket(group.id,ticket_id)
+									ki1.sendMessage(to, "➧ Berhasil masuk ke group %s" % str(group.name))      
+									ki2.acceptGroupInvitationByTicket(group.id,ticket_id)
+									ki2.sendMessage(to, "➧ Berhasil masuk ke group %s" % str(group.name))      
+									ki3.acceptGroupInvitationByTicket(group.id,ticket_id)
+									ki3.sendMessage(to, "➧ Berhasil masuk ke group %s" % str(group.name))      
+									ki4.acceptGroupInvitationByTicket(group.id,ticket_id)
+									ki4.sendMessage(to, "➧ Berhasil masuk ke group %s" % str(group.name))      
+									ki5.acceptGroupInvitationByTicket(group.id,ticket_id)
+									ki5.sendMessage(to, "➧ Berhasil masuk ke group %s" % str(group.name))      
+
+									
 			except Exception as error:
 				logError(error)
 	except Exception as error:
