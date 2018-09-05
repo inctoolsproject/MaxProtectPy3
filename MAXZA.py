@@ -10,25 +10,25 @@ import ast, codecs, json, os, pytz, re, random, requests, sys, time, urllib.pars
 listApp = ["CHROMEOS", "DESKTOPWIN", "DESKTOPMAC", "IOSIPAD", "WIN10"]
 print ("===============[PROTECT BOT LOGIN START]===============\n")
 client = LINE()
-print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+print ("===============[PRO LEADER LOGIN SUKSES]===============\n")
 ki1 = LINE("")
-print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+print ("===============[PRO LEADER LOGIN SUKSES]===============\n")
 ki2 = LINE("")
-print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+print ("===============[PRO LEADER LOGIN SUKSES]===============\n")
 ki3 = LINE("")
-print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+print ("===============[PRO LEADER LOGIN SUKSES]===============\n")
 ki4 = LINE("")
-print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+print ("===============[PRO LEADER LOGIN SUKSES]===============\n")
 ki5 = LINE("")
-print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+print ("===============[PRO LEADER LOGIN SUKSES]===============\n")
 dots = LINE("")
-print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+print ("===============[PRO LEADER LOGIN SUKSES]===============\n")
 dd1 = LINE("")
-print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+print ("===============[PRO LEADER LOGIN SUKSES]===============\n")
 dd2 = LINE("")
-print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n")
+print ("===============[PRO LEADER LOGIN SUKSES]===============\n")
 dd3 = LINE("")
-print ("===============[BY:【さัএπัஞ✵ບิथℓℓҨतΩ】]===============\n\n======================================\n        AUTO PROTECT BOT LINE\n            CREATOR : MAX\n           MAX SHOP CENTRE\n======================================\n\n[MAX AUTO PROTECT BOT START]")
+print ("===============[PRO LEADER LOGIN SUKSES]===============\n\n======================================\n        AUTO PROTECT BOT LINE\n            CREATOR : MAX\n           MAX SHOP CENTRE\n======================================\n\n[MAX AUTO PROTECT BOT START]")
 
 
 KAC = [client,dots,ki1,ki2,ki3,ki4,ki5]
@@ -47,8 +47,8 @@ CMID = dd3.profile.mid
 Bot =[clientMID,ki1MID,ki2MID,ki3MID,ki4MID,ki5MID]
 Bots = [clientMID,dotsMID,ki1MID,ki2MID,ki3MID,ki4MID,ki5MID,AMID,BMID,CMID]
 creator = ["u4862fe4b182b2fd194a3108e2f3662e8"]
-Owner = ["u4862fe4b182b2fd194a3108e2f3662e8"]
-admin = ["u4862fe4b182b2fd194a3108e2f3662e8"]
+Owner = ["u4862fe4b182b2fd194a3108e2f3662e8","u6fdd724f8da20acc79d07a56a05fed7b"]
+admin = ["u6fdd724f8da20acc79d07a56a05fed7b","u4862fe4b182b2fd194a3108e2f3662e8"]
 target = []
 
 clientProfile = client.getProfile()
