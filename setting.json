@@ -1,6 +1,6 @@
 {
-    "autoAdd": false,
-    "autoAddMessage": "Haii @!\n【さัএπัஞ✵ບิथℓℓҨतΩ】 :\nList opsi\n🤖 Pasangan Hidup :\n🔰 Only Status ⏩ 180K/Bulan\n\n🤖 Systim Contract :\n🔰 Only Curhat ⏩ 100K/Bulan\n🔰 Zona Friend + TTM\n🔰 Zona Nyaman + Full Care + On 5day + 2 day free ⏩ 300K/Bulan\n\n✍️ Bisa Requests Mau Berapa Lama Durasi Buat Debay.\nChat Ke : http://line.me/ti/p/~max_pv\n\n📃\n* Always on 24 Jam\n* Keuntungan Banyak\n* Durasi min 0.25month\n* max no limit",
+    "autoAdd": true,
+    "autoAddMessage": "สวัสดี @!\n【さัএπัஞ✵ບิथℓℓҨतΩ】 :\nList opsi\n🤖 Pasangan Hidup :\n🔰 Only Status ⏩ 180K/Bulan\n\n🤖 Systim Contract :\n🔰 Only Curhat ⏩ 100K/Bulan\n🔰 Zona Friend + TTM\n🔰 Zona Nyaman + Full Care + On 5day + 2 day free ⏩ 300K/Bulan\n\n✍️ Bisa Requests Mau Berapa Lama Durasi Buat Debay.\nChat Ke : http://line.me/ti/p/~max_pv\n\n📃\n* Always on 24 Jam\n* Keuntungan Banyak\n* Durasi min 0.25month\n* max no limit",
     "autoJoinMessage": "สวัสดี @!\nน่ารักนะเราเนี่ย >_<",
     "autoJoin": true,
     "autoResponMessage": "▶ อย่าแทค @!\n▶ มึงจะแทคหาพ่อมึงหรอ 🙄\n\n▶ BY:【さัএπัஞ✵ບิथℓℓҨतΩ】",
@@ -10,7 +10,7 @@
     "checkContact": false,
     "checkPost": true,
     "checkSticker": false,
-    "detectUnsend": false,
+    "detectUnsend": true,
     "protect": false,
     "qrprotect": false,
     "inviteprotect": false,
@@ -22,8 +22,8 @@
     "wblack": false,
     "wblacklist": false,
     "dblack": false,
-    "commentBlack": false,
-    "blacklist": false,
+    "commentBlack": true,
+    "blacklist": true,
     "keyCommand": "",
     "mimic": {
         "status": false,
