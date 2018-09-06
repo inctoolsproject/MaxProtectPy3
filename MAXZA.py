@@ -292,7 +292,7 @@ def menuHelp():
                 "┣│✪│•" + key + "Group\n" + \
                 "┣│✪│•" + key + "Media\n" + \
 		        "┣│✪│•" + key + "Translate\n" + \
-		        "┣│✪│•" + key + "Pro key\n" + \
+		        "┣│✪│•" + key + "Bot key\n" + \
                 "┣│✪│•" + key + "Menu\n" + \
 		        "╰═══════╬╬═══════╯" + "\n" + \
 		        "╭═══════╬╬═══════╮" + "\n" + \
@@ -313,7 +313,7 @@ def menuSelf():
                 "┣│✪│•" + key + "Turn off" + "\n" + \
 		        "┣│✪│•" + key + "Restart" + "\n" + \
 		        "┣│✪│•" + key + "Runtime" + "\n" + \
-		        "┣│✪│•" + key + "Speed" + "\n" + \
+		        "┣│✪│•" + key + "Sp" + "\n" + \
 		        "┣│✪│•" + key + "Status" + "\n" + \
 		        "┣│✪│•" + key + "Cpp" + "\n" + \
 		        "┣│✪│•" + key + "CName:_Text" + "\n" + \
@@ -601,12 +601,12 @@ def clientBot(op):
 						elif cmd == "restart":
 							client.sendMessage(to, "➧ Restarting Dots System\n➧ Tunggu 30 Detik")
 							restartBot()
-						elif cmd == "speed":
+						elif cmd == "sp":
 							start = time.time()
 							client.sendMessage(to, "➧ Checking Dots Speed")
 							elapsed_time = time.time() - start
 							client.sendMessage(to, "➧ Speed Result : \n   {} Detik".format(str(elapsed_time)))
-						elif cmd == "Runtime":
+						elif cmd == "runtime":
 							timeNow = time.time()
 							runtime = timeNow - clientStart
 							runtime = timeChange(runtime)
@@ -731,7 +731,7 @@ def clientBot(op):
 							else:
 								settings["autoJoinTicket"] = True
 								client.sendMessage(to, "➧ Auto join ticket aktif")
-						elif cmd == "autojointicket off":
+						elif cmd == "jointicket off":
 							if settings["autoJoinTicket"] == False:
 								client.sendMessage(to, "➧ Auto join ticket nonaktif")
 							else:
@@ -841,6 +841,8 @@ def clientBot(op):
 							client.sendMention(to, "@!", [sender])
 							client.sendContact(to, sender)
 							contact = client.getContact(sender)
+						elif cmd == ".me":
+							client.sendMentionFooter(to, '「Me」\n', sender, "https://line.me/ti/p/~max_pv", "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, client.getContact(sender).displayName);client.sendMessage(to, client.getContact(sender).displayName, contentMetadata = {'previewUrl': 'http://dl.profile.line-cdn.net/'+client.getContact(sender).pictureStatus, 'i-installUrl': 'https://line.me/ti/p/~max_pv', 'type': 'mt', 'subText': "【さัএπัஞ✵ບิथℓℓҨतΩ】", 'a-installUrl': 'https://line.me/ti/p/~max_pv', 'a-installUrl': ' https://line.me/ti/p/~max_pv', 'a-packageName': 'com.spotify.music', 'countryCode': 'ID', 'a-linkUri': 'https://line.me/ti/p/~max_pv', 'i-linkUri': 'https://line.me/ti/p/~max_pv', 'id': 'mt000000000a6b79f9', 'text': '【さัএπัஞ✵ບิथℓℓҨतΩ】', 'linkUri': 'https://line.me/ti/p/~max_pv'}, contentType=19)
 						elif cmd == "myprofile":
 							contact = client.getContact(sender)
 							cover = client.getProfileCoverURL(sender)
@@ -1609,7 +1611,7 @@ def clientBot(op):
 							if msg._from in Bot:
 								dots.leaveGroup(msg.to)
 								
-						elif cmd == "pro key":
+						elif cmd == "bot key":
 							if msg._from in Bot:
 								helpPro = menuPro()
 								contact = client.getContact(sender)
@@ -2141,7 +2143,7 @@ def clientBot(op):
 								
 #ADMIN PRO START
 								
-						elif cmd == "pro key":
+						elif cmd == "bot key":
 							if msg._from in admin:
 								helpPro = menuPro()
 								contact = client.getContact(sender)
@@ -2256,7 +2258,7 @@ def clientBot(op):
 										ki1.updateGroup(group)
 										ki1.sendMessage(to, "➧ Group QR Tertutup...\n➧ Group Aman")
 										
-						if cmd == "pro speed":
+						if cmd == "spb":
 							if msg._from in admin:
 								start = time.time()
 								ki1.sendMessage(to, "➧ Checking Dots Pro Speed")
