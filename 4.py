@@ -69,10 +69,10 @@ myProfile["statusMessage"] = clientProfile.statusMessage
 myProfile["pictureStatus"] = clientProfile.pictureStatus
 #==============================================================================================================
 read = json.load(readOpen)
-settings = json.load(settingsOpen)
+#settings = json.load(settingsOpen)
 #images = json.load(imagesOpen)
 #stickers = json.load(stickersOpen)
-#msg_dict = {}
+msg_dict = {}
 bl = ["ue4117356009586eb55366d1199e56589"]
 
 try:
@@ -5394,14 +5394,16 @@ def backupData():
         return False
 #==============================================================================================================
 
-while True:
-    try:
-        delExpire()
-        delete_log()
-        ops = clientPoll.singleTrace(count=50)
-        if ops is not None:
-            for op in ops:
-                lineBot(op)
-                clientPoll.setRevision(op.revision)
-    except Exception as e:
-        logError(e)
+def run():
+	while True:
+		ops = oepoll.singleTrace(count=50)
+		if ops != None:
+			for op in ops:
+				try:
+					clientBot(op)
+				except Exception as error:
+					logError(error)
+				oepoll.setRevision(op.revision)
+
+if __name__ == "__main__":
+	run()
