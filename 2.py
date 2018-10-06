@@ -10,9 +10,9 @@ botStart = time.time()
 client = LINE ()
 #==============================================================================================================
 readOpen = codecs.open("read.json","r","utf-8")
-settingsOpen = codecs.open("temp.json","r","utf-8")
-stickersOpen = codecs.open("sticker.json","r","utf-8")
-imagesOpen = codecs.open("image.json","r","utf-8")
+#settingsOpen = codecs.open("temp.json","r","utf-8")
+#stickersOpen = codecs.open("sticker.json","r","utf-8")
+#imagesOpen = codecs.open("image.json","r","utf-8")
 #==============================================================================================================
 mid = client.getProfile().mid
 #==============================
@@ -70,9 +70,9 @@ myProfile["pictureStatus"] = clientProfile.pictureStatus
 #==============================================================================================================
 read = json.load(readOpen)
 settings = json.load(settingsOpen)
-images = json.load(imagesOpen)
-stickers = json.load(stickersOpen)
-msg_dict = {}
+#images = json.load(imagesOpen)
+#stickers = json.load(stickersOpen)
+#msg_dict = {}
 bl = ["ue4117356009586eb55366d1199e56589"]
 
 try:
@@ -5361,7 +5361,7 @@ def RECEIVE_MESSAGE(op):
 def atend():
     with open("Log_data.json","w",encoding='utf8') as f:
         json.dump(msg_dict, f, ensure_ascii=False, indent=4,separators=(',', ': '))
-atexit.register(atend)
+#atexit.register(atend)
 def restartBot():
     print ("[ INFO ] BOT RESETTED")
     backupData()
