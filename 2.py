@@ -1,18 +1,9 @@
-# YUKIESTREETBOT
-# KHIE WAS HERE
-from Linephu.linepy import *
-from Linephu.akad.ttypes import Message
-from Linephu.akad.ttypes import ContentType as Type
-from Linephu.akad.ttypes import ChatRoomAnnouncementContents
-from Linephu.akad.ttypes import ChatRoomAnnouncement
-from datetime import datetime, timedelta
-from time import sleep
-from bs4 import BeautifulSoup
-from humanfriendly import format_timespan, format_size, format_number, format_length
-import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, pytz, urllib, urllib.parse, ffmpy, wikipedia, atexit, datetime, pafy, youtube_dl
-_session = requests.session()
+from LineAPI.linepy import *
 from gtts import gTTS
+from bs4 import BeautifulSoup
+from datetime import datetime
 from googletrans import Translator
+import ast, codecs, json, os, pytz, re, random, requests, sys, time, urllib.parse
 #==============================================================================================================
 botStart = time.time()
 #==============================================================================================================
